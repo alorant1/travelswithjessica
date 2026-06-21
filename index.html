@@ -31,7 +31,7 @@
 </nav>
 
 <div class="home-hero">
-  <img src="https://travelswithjessica.ca/wp-content/uploads/2022/09/ouarzazate-morocco-pixabay.jpg" alt="Morocco desert camels">
+  <img src="https://travelswithjessica.ca/wp-content/uploads/2022/09/a3.jpg" alt="Camels in the Moroccan Sahara">
 </div>
 
 <section class="about-section" id="contact">
@@ -39,7 +39,7 @@
   <div class="contact-block">
     <p>Contact me if you have any questions&nbsp;….</p>
     <div class="contact-icons">
-      <a href="https://www.facebook.com/jessica.hotz" aria-label="Facebook">
+      <a href="https://www.facebook.com/jessica.hotz.71" target="_blank" rel="noopener" aria-label="Facebook">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
       </a>
       <a href="mailto:jessicahotz123@gmail.com" aria-label="Email">
@@ -183,51 +183,73 @@ polygonTemplate.strokeWidth = 0.5;
 var hoverState = polygonTemplate.states.create("hover");
 hoverState.properties.fill = am4core.color("#9e6555");
 
-// Visited countries
+// Countries with posts: { id, url, count }
 var visited = [
-  { id: "AU", url: "https://travelswithjessica.ca/category/australia/" },
-  { id: "BZ", url: "https://travelswithjessica.ca/category/central-america-2/belize/" },
-  { id: "KH", url: "https://travelswithjessica.ca/category/asia/cambodia/" },
-  { id: "CA", url: "https://travelswithjessica.ca/category/north-america/canada/" },
-  { id: "CN", url: "https://travelswithjessica.ca/category/asia/china/" },
-  { id: "HR", url: "https://travelswithjessica.ca/category/europe/croatia/" },
-  { id: "DK", url: "https://travelswithjessica.ca/category/europe/denmark/" },
-  { id: "FI", url: "https://travelswithjessica.ca/category/europe/finland/" },
-  { id: "FR", url: "https://travelswithjessica.ca/category/europe/france/" },
-  { id: "DE", url: "https://travelswithjessica.ca/category/europe/germany/" },
-  { id: "IL", url: "https://travelswithjessica.ca/category/asia/isreal/" },
-  { id: "IT", url: "https://travelswithjessica.ca/category/europe/italy/" },
-  { id: "JP", url: "https://travelswithjessica.ca/category/asia/japan/" },
-  { id: "MX", url: "https://travelswithjessica.ca/category/north-america/mexico/" },
-  { id: "MA", url: "https://travelswithjessica.ca/category/africa/morocco/" },
-  { id: "PE", url: "https://travelswithjessica.ca/category/south-america/peru/" },
-  { id: "ZA", url: "posts/cape-town-south-africa.html" },
-  { id: "ES", url: "https://travelswithjessica.ca/category/europe/spain/" },
-  { id: "TH", url: "https://travelswithjessica.ca/category/asia/thailand/" },
-  { id: "GB", url: "https://travelswithjessica.ca/category/europe/united-kingdom/" },
-  { id: "US", url: "https://travelswithjessica.ca/category/north-america/united-states/" },
-  { id: "VN", url: "https://travelswithjessica.ca/category/asia/vietnam/" },
+  { id: "AU", url: "https://travelswithjessica.ca/category/australia/",             count: 5  },
+  { id: "BZ", url: "https://travelswithjessica.ca/category/central-america-2/belize/", count: 4 },
+  { id: "KH", url: "https://travelswithjessica.ca/category/asia/cambodia/",         count: 3  },
+  { id: "CA", url: "https://travelswithjessica.ca/category/north-america/canada/",  count: 11 },
+  { id: "CN", url: "https://travelswithjessica.ca/category/asia/china/",            count: 1  },
+  { id: "HR", url: "https://travelswithjessica.ca/category/europe/croatia/",        count: 8  },
+  { id: "DK", url: "https://travelswithjessica.ca/category/europe/denmark/",        count: 1  },
+  { id: "FI", url: "https://travelswithjessica.ca/category/europe/finland/",        count: 2  },
+  { id: "FR", url: "https://travelswithjessica.ca/category/europe/france/",         count: 5  },
+  { id: "DE", url: "https://travelswithjessica.ca/category/europe/germany/",        count: 1  },
+  { id: "IL", url: "https://travelswithjessica.ca/category/asia/isreal/",           count: 0  },
+  { id: "IT", url: "https://travelswithjessica.ca/category/europe/italy/",          count: 15 },
+  { id: "JP", url: "https://travelswithjessica.ca/category/asia/japan/",            count: 4  },
+  { id: "MX", url: "https://travelswithjessica.ca/category/north-america/mexico/",  count: 7  },
+  { id: "MA", url: "https://travelswithjessica.ca/category/africa/morocco/",        count: 3  },
+  { id: "PE", url: "https://travelswithjessica.ca/category/south-america/peru/",    count: 4  },
+  { id: "ZA", url: "posts/cape-town-south-africa.html",                             count: 8  },
+  { id: "ES", url: "https://travelswithjessica.ca/category/europe/spain/",          count: 2  },
+  { id: "TH", url: "https://travelswithjessica.ca/category/asia/thailand/",         count: 5  },
+  { id: "GB", url: "https://travelswithjessica.ca/category/europe/united-kingdom/", count: 8  },
+  { id: "US", url: "https://travelswithjessica.ca/category/north-america/united-states/", count: 5 },
+  { id: "VN", url: "https://travelswithjessica.ca/category/asia/vietnam/",          count: 9  },
 ];
 
-var visitedSeries = chart.series.push(new am4maps.MapPolygonSeries());
-visitedSeries.useGeodata = true;
-visitedSeries.data = visited.map(v => ({ id: v.id, url: v.url }));
-visitedSeries.dataFields.id = "id";
-
-var visitedTemplate = visitedSeries.mapPolygons.template;
-visitedTemplate.fill = am4core.color("#7B4B3A");
-visitedTemplate.stroke = am4core.color("#f9f6f2");
-visitedTemplate.strokeWidth = 0.5;
-visitedTemplate.tooltipText = "{name}";
-visitedTemplate.cursorOverStyle = am4core.MouseCursorStyle.pointer;
-
-var visitedHover = visitedTemplate.states.create("hover");
-visitedHover.properties.fill = am4core.color("#9e6555");
-
-visitedTemplate.events.on("hit", function(ev) {
+// Countries with posts (count > 0) — brown
+var withPosts = visited.filter(v => v.count > 0);
+var withPostsSeries = chart.series.push(new am4maps.MapPolygonSeries());
+withPostsSeries.useGeodata = true;
+withPostsSeries.data = withPosts.map(v => ({ id: v.id, url: v.url, count: v.count }));
+withPostsSeries.dataFields.id = "id";
+var withPostsTemplate = withPostsSeries.mapPolygons.template;
+withPostsTemplate.fill = am4core.color("#7B4B3A");
+withPostsTemplate.stroke = am4core.color("#f9f6f2");
+withPostsTemplate.strokeWidth = 0.5;
+withPostsTemplate.tooltipText = "{name}: {count} post{count == 1 ? '' : 's'}";
+withPostsTemplate.cursorOverStyle = am4core.MouseCursorStyle.pointer;
+withPostsTemplate.propertyFields.tooltipText = "tooltipText";
+var withPostsHover = withPostsTemplate.states.create("hover");
+withPostsHover.properties.fill = am4core.color("#9e6555");
+withPostsTemplate.events.on("hit", function(ev) {
   var url = ev.target.dataItem.dataContext.url;
   if (url) window.location.href = url;
 });
+// Build tooltip manually since amCharts 4 doesn't interpolate expressions
+withPostsSeries.events.on("inited", function() {
+  withPostsSeries.mapPolygons.each(function(polygon) {
+    var ctx = polygon.dataItem.dataContext;
+    if (ctx) {
+      var n = ctx.count;
+      polygon.tooltipText = "{name}: " + n + " post" + (n === 1 ? "" : "s");
+    }
+  });
+});
+
+// Visited countries with no posts — grey
+var noPosts = visited.filter(v => v.count === 0);
+var noPostsSeries = chart.series.push(new am4maps.MapPolygonSeries());
+noPostsSeries.useGeodata = true;
+noPostsSeries.data = noPosts.map(v => ({ id: v.id }));
+noPostsSeries.dataFields.id = "id";
+var noPostsTemplate = noPostsSeries.mapPolygons.template;
+noPostsTemplate.fill = am4core.color("#aaaaaa");
+noPostsTemplate.stroke = am4core.color("#f9f6f2");
+noPostsTemplate.strokeWidth = 0.5;
+noPostsTemplate.tooltipText = "{name}: visited, no posts yet";
 
 chart.zoomControl = new am4maps.ZoomControl();
 chart.zoomControl.align = "right";
