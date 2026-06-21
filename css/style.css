@@ -137,84 +137,24 @@ nav ul a:hover { color: var(--white); }
   color: var(--text);
 }
 
-/* ── Photo Carousel ── */
-.carousel {
+/* ── Photo Block ── */
+.photo-block {
   margin: 2rem 0;
-  position: relative;
 }
 
-.carousel-track-wrapper {
-  overflow: hidden;
-  border-radius: 2px;
-}
-
-.carousel-track {
-  display: flex;
-  transition: transform 0.4s ease;
-}
-
-.carousel-slide {
-  min-width: 100%;
-  position: relative;
-}
-
-.carousel-slide img {
+.photo-block img {
   width: 100%;
-  height: 420px;
-  object-fit: contain;
+  height: auto;
+  display: block;
   background: var(--cream);
 }
 
-.carousel-caption {
+.photo-caption {
   font-size: 0.82rem;
   color: #666;
   font-style: italic;
-  padding: 0.6rem 0.5rem;
-  text-align: center;
-  min-height: 2.2rem;
+  padding: 0.5rem 0 0;
 }
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-60%);
-  background: rgba(255,255,255,0.75);
-  border: none;
-  border-radius: 3px;
-  width: 36px;
-  height: 36px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.2s;
-  z-index: 2;
-}
-
-.carousel-btn:hover { background: rgba(255,255,255,0.95); }
-.carousel-btn.prev { left: 8px; }
-.carousel-btn.next { right: 8px; }
-
-.carousel-dots {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  padding: 0.4rem 0;
-}
-
-.carousel-dots button {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  border: none;
-  background: var(--light);
-  cursor: pointer;
-  padding: 0;
-  transition: background 0.2s;
-}
-
-.carousel-dots button.active { background: var(--brown); }
 
 /* ── Homepage Hero ── */
 .home-hero {
