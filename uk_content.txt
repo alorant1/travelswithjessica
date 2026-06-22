@@ -1,0 +1,448 @@
+Here is the complete extraction for all 7 posts. Below is the full verbatim output:
+
+---
+
+```
+=== POST: Oxford, England (ID: 11117) ===
+FEATURED_IMAGE: https://travelswithjessica.ca/wp-content/uploads/2025/10/IMG_7547-e1759546682720.jpg
+H2_HEADING: Opulent Oxford
+
+CONTENT_IN_ORDER:
+[TEXT: September, 2025]
+[TEXT: We stopped in Oxford mostly to see the Bodleian Library (only a library gets to put three vowels in a row in its name). Sadly It didn't occur to us that tickets would be in such high demand on a rainy Thursday…Maybe because it was a convocation day and people were sneaking out of the ceremony, or maybe because it's one of the most famous libraries in the world. Next time…]
+[TEXT: But we still found some things to do in Oxford in the rain!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-28.jpeg?fit=1540%2C2048&ssl=1]
+[TEXT: Day trip to Oxford started with lunch at the Covered Market. I'd like to put "Covered" in quotes as when the rain bucketed down outside, we got misted through the roof slats.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-29.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Classic ivy covered Oxfords. With all that ivy chipping away at the stone it is climbing up, it's astonishing these buildings haven't crumbled.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-30.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Italy follows me everywhere! Oxford's "Bridge of Sighs" this is actually the Hertford Bridge but got its nickname from is resemblance to the bridge in Venice that linked the courts to the prison cells where those convicted sighed as they crossed the bridge and had their last glimpse of freedom. No courts and prisons are attached to this bridge but perhaps the students have some degree of anxiety as they cross under this bridge on their way to write their exams.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-31.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Rainy graduation day in Oxford. This dressed up mom, clutching her grad's backpack, does not look impressed.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-32.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: With the Bodleian library sold out on this rainy Thursday, we ended up seeing an amazing exhibit on Treasures in the Weston Library. The concept was what makes something a treasure. The first of something, the oldest of something, the last of something, something that triggers memories; pleasant or sad. Treasures are what we are made of; they form our past and hopefully guide our present and future. Here are just a few of many items that resonated with me…for a variety of reasons.
+
+Famous: This is the Gutenberg Bible. Printed sometime around 1455, it wasn't the first printed object but it was the first in Europe printed with movable type…and the first best seller! Even though each copy was hand-decorated by artists, printing allowed so many more copies of a book to be made.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-33.jpeg?fit=2048%2C1716&ssl=1]
+[TEXT: Oldest: This little pagoda holds one of the world's oldest printed texts. In the 760s, Empress Shötoku of Japan ordered one million of these wooden pagodas, each with a printed dharani - a sacred Buddhist spell. Craftspeople printed the scrolls, rolled them by hand and placed one inside each pagoda to spread belief and shape identity. I'm not sure if they followed the Empress's instructions and actually made a million little pagoda scroll holders, but if they did, it would have satisfied the demand of about 20% of the Japanese population of the time.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-34.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Faith: Soldiers heading into battle often took Qur'ânic verses with them as talismans. This 16th century shirt took that tradition to a whole new level. The entire Qur'ân is printed on it. I see no bloodstains so I would guess this soldier lived to tell his tale.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-35.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Prototype: This is the original manuscript of Mary Shelly's Frankenstein. She came up with the idea in 1816 while visiting Lord Byron's villa on Lake Geneva and wrote it all down in this notebook.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-36.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Questionable? Here is the first published edition of Alice's Adventures in Wonderland. This classic has a debated backstory that in modern times is considered a bit dodgy. But times change and to what extent do we have the right to criticize what was acceptable in the past.
+
+Lewis Carroll is actually the pen name of Charles Dodson, a mathematician who taught at Christ Church, Oxford. He was friendly with Henry Liddell, the Dean, and his family. He would take Henry's kids on outings and tell them stories. When he was 30, in 1862, he came up with the story of Henry's daughter, Alice, falling down a rabbit hole. The rest is a history that is debated in literary circles. Carroll's relationship with the family abruptly ended in 1863 and there is no record as to why; the pages in the family diary describing this period were torn out. Of course, this is where speculation begins! Carroll, like many of his time, enjoyed the hobby of photographing children in costume or naked. Alice was one of his subjects. Were Carroll's motivations innocent? He went on to publish Alice's Adventures in Wonderland a year after the rift.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-37.jpeg?fit=768%2C1260&ssl=1]
+[TEXT: Reflection: Some items remind us of painful truths and uncomfortable histories but we need to treasure and preserve them so that we can stay grounded in reality. The bible on the left "Select Parts of the Holy Bible for Negro Slaves" was printed in 1807. What was selectively removed was all the references to struggles for freedom, for example the Israelites' escape from slavery in Egypt. Don't want to give anyone any foolish ideas…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2024/03/image-38.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: This is the Martyr's Memorial Cross in the middle of Oxford's Broad Street marks the spot where, in 1555 and 1556, Hugh Latimer, Bishop of Worcester, Nicholas Ridley, Bishop of London, and Thomas Cranmer, Archbishop of Canterbury were burnt at the stake for their faith. Queen Mary I was struggling to bring back Catholicism. These three, the Oxford Martyrs, were prominent Protestant reformers and Mary would have none of it. She condemned them for heresy and had them executed.]
+
+
+=== POST: The Cotswolds, England (ID: 11132) ===
+FEATURED_IMAGE: https://travelswithjessica.ca/wp-content/uploads/2025/10/IMG_7695.jpg
+H2_HEADING: Charming Cotswolds
+
+CONTENT_IN_ORDER:
+[TEXT: September, 2025]
+[TEXT: First time in the Cotswolds with Painswick as our base! Such a lovely collection of quaint villages, fluffy sheep and mud! I'd love to come back…in drier season.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Who knew how prophetic the door knocker on our little cottage would be…could have used a pair of these!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-1.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: We started our village explorations in Bourton-on-the-Water. Such a pretty town along the Windrush River. Lots of little bridges but it seemed hardly necessary as the water loooked to be only a few inches deep. Note the sky behind; another bit of foreshadowing…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-2.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: The rain came so we retreated to a farm market. And what a farm market! Daylesford is what Martha Stewart would have created if she lived out here. All the gourmet food, organic produce, meats and fish, wine (some local…English wine?!), spirits and treats you would dream of adorning your table…and of course the furniture, table settings, linens and flowers you need for said table!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-3.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Then there was the cheese room at Daylesford. Cheese from around the world alongside the farm's own award-winning cheeses. This one was not one of theirs but I loved the name. Who knew this also would fall into the foreshadowing camp.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-4.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: And just like that, it cleared up! Of course we needed to re-energy ourselves with some late-season blackberries growing along our path.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-5.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: There are hundreds of miles of public rights of way through private property in the Cotswolds. People on foot, bicycles or horses are free to cross through these fields and farmlands, alongside sheep and cows. In fact, farmers are required to leave at least a 1 metre clear path for walkers on footpaths (or 2m for cyclists and horse riders on bridelways).]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-6.jpeg?fit=768%2C576&ssl=1]
+[TEXT: This walk started in Chipping Campden, the beginning of the 164km Cotswolds Way which ends in Bath. "Chipping" comes from old English meaning market. Town's starting with the word Chipping, were designated market towns in the Doomsday Book. We came across references to the Doomsday Book quite a lot. While to me doomsday sounds like the horrible end of something, it was actually the start of something. The book was a survey of all of England commissioned by William the Conqueror in 1085 to record who owned land, how it was used and what it was worth. William wanted the lay of the land of his new kingdom for taxation and control purposes.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-7.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: As a market town, Chipping Campden was known for its wool trade…no kidding! Some unfortunate creature lost a bit of its wool on a bramble.
+
+This walk took us to Dover's Hill, the site of the annual Cotswold Olimpicks a sporting event held in this very spot since 1612. Next year will be the 414th anniversary. Some believe it to be the precursor to the modern Olympic Games. If so, we can be thankful that the sports have been updated. At this Olimpicks, spectators can be entertained by the signature shin-kicking event where two players hold each other by the shoulders and try to kick their opponents shins to force them to the ground.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-8.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Overlooking Broad Campden, Chipping Campden's smaller neighbour.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-9.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Chipping Campden takes its thatched roofs very seriously.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-10.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: A new day with blue skies. We are defying the forecast! How lucky! 
+
+As if! 
+
+The rain came and we were completely unprepared.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-11.jpeg?fit=768%2C576&ssl=1]
+[TEXT: The rain set in and we walked as fast as we could to Bibury where we found the charming stone houses of Arlington Row. This row of cottages was built in 1380 as a wool store and was then converted into weaver's cottages in the 17th century (it took them a while to figure out vertical integration). This is one of the most iconic spots in the UK and is the image on the inside cover of the British passport.
+
+After taking some time to get thoroughly wet taking pictures, we took refuge in a tea shop. As seems to be typical here, the rain stopped as quickly as it started and blue skies rolled in.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-12.jpeg?fit=768%2C395&ssl=1]
+[TEXT: We continued on our way through cow fields dodging the mud and manure, passing group after group of walkers, some decorated with tutus and sparkles. Turns out this was the annual CoppaTrek, a fundraiser for the youth-focussed breast cancer awareness organization, CoppaFeel. The groups we crossed paths with were walking a full marathon (42km). At this point in the cow field, they were about 30km in. This year, there were 645 trekkers who raised over £453,000.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-13.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: This was a footwear-fail day.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-14.jpeg?fit=768%2C783&ssl=1]
+[TEXT: We cleaned up after the wet and muddy day and had a fabulous last Cotswolds dinner at the lovely Painswick Hotel.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-15.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Painswick won the honour of being the most beautiful village in the Cotswolds in 2025. They are all so pretty so I imagine the baton is passed each year from one lovely village to the next. Painswick has had a church since Norman times, with this one having been rebuilt in 1377, enlarged in 1480, and adorned with a spire in 1632 which collapsed after a lightning strike on 1883 (who thought a church spire being the tallest thing in town was a good idea). But here she still stands, surrounded by 99 yew trees. They will hold at 99 as legend has it that if there is a 100th tree, the devil will pull it out.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-16.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: The little art gallery, presumably in what was once a men's room. Love the name!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-17.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Our final Cotswolds walk took us through a golf course that was once an Iron Age hillfort (dating back to 500 BC). Ditches and ramparts were dug to defend the settlement. Some wise people decided to put a golf course on this old fort in 1891 and it's attracted golfers seeking something different ever since. Reputed to be one of the best short courses in the world, it has a pretty challenging terrain.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-18.jpeg?fit=768%2C576&ssl=1]
+[TEXT: The last little climb to the top of the Beacon!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-19.jpeg?fit=768%2C576&ssl=1]
+[TEXT: At nearly 300 metres elevation, the 360 views were stunning…and windy!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-20.jpeg?fit=768%2C576&ssl=1]
+[TEXT: These golfers made it to the 6th hole (affectionately called the Throne) at the 300m top and had to contend with cows grazing on the course!]
+
+
+=== POST: York, England (ID: 11183) ===
+FEATURED_IMAGE: https://travelswithjessica.ca/wp-content/uploads/2025/10/IMG_7853.jpg
+H2_HEADING: Yearning for York
+
+CONTENT_IN_ORDER:
+[TEXT: September, 2025]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-21.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Beside York Minster sits Constantine the Great. He was declared Roman Emperor in 306AD and was instrumental in establishing the Christian faith in the western world. After having a religious vision and winning his following battle, he decided there was something to this religion. It was also politically advantageous to ditch paganism and side with what was proving to be the winning team among both the rich and the poor. To symbolize this, he cut off the pointy end of his sword which turned the weapon into a cross (as depicted in this statue). Not unlike many others, he was baptized on his deathbed…this way he could be cleansed of his sins when there was no chance of sinning any more.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-22.jpeg?fit=1718%2C2048&ssl=1]
+[TEXT: York Minster is one of the most iconic spots in York. It all started here on this spot when the Pagan King Edwin of Northumbria wanted to marry Ethelburgh,  Christian princess of Kent. Part of the deal was that he consider converting to Christianity. He tabled it for a while and when he was heading off to battle some rival kingdoms, he asked her to pray for his success. If he won, he would convert. Well, he came home alive and two kingdoms richer so he kept to his word, converted in 627AD and commissioned a wooden church to be built on this site where York Minster now stands. After his death in 633, his little church fell into disrepair but the location was set. Stone churches replaced the wooden one and in 1220 they started building what we know today as York Minster. It took 250 years to build and was finally completed in 1472.
+
+When you look at the front of the church, you notice a very clean and white statue to the right of the main door. It's Queen Elizabeth II,  installed in August 2022 marking her platinum Jubilee.
+
+The other thing you notice is all the other niches are empty. They likely never had statues in them as the plinths are bare with no evidence of rods to hold anything in place. It turns out cost overruns shifted the construction priorities, not to mention the Plague hitting York in 1349 and killing much of the population including stonemasons and carvers. By the 19th century, there was more money to invest in major renovations and they could have added statues but decided to leave the niches empty to keep the facade cleaner and not distract from the soaring architecture.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-23.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: While I was busy admiring the front of the minster and wondering about all these questions, Adam was busy making a few new friends who insisted on taking a photo with him.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-24.jpeg?fit=1664%2C2048&ssl=1]
+[TEXT: Moving onto inside the Minster, most niches are also empty. Some were never filled and others' statues were destroyed or damaged during the Reformation.
+
+This is part of the 2003 installation of Semaphore Saints by artist Terry Hammill. The semaphore system of communication uses hand-held flags in different arm positions as letters of the alphabet. This sculpture spells out "Christ is Here". Using semaphores was a symbolic nod to the Minster's medieval stonemasons' carvings to convey stories and morals for the illiterate. No sooner did our guide explain that if you were a Scout or Guide as a child you may have learned this set of hand signals, I noticed an older couple beside me working out the message letter by letter. They are headless because we are meant to focus on the message.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-25.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: In the back, on the quire screen, are some statues! These are all the kings from William the Conqueror on the top left to Henry IV on the bottom right (top row is left side of the door, bottom row is the right side of the door). These fierce looking kings are guarding the clergy, using their royal power to defend the church. Of course when these were carved, the kings were long gone and the stonemasons didn't really know what they looked like. If you look closely, you'll notice a bunch of them look quite similar. Begs the question: Who was the model?Perhaps the stonemason's dad or grandad?]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-26.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: When the earlier Norman stone church of 1080 was rebuilt in the 13th century Gothic style, they doubled the width. In order to do so, the gothic columns had to be designed with much more tensile strength (hence the clusters of pillars) and they decided to build a lighter-weight ceiling out of wood because they figured a heavy stone ceiling would collapse. Well, all these years later it never collapsed but it did burn a few times…a clockmaker accidentally started a fire, lightning stuck, a bit of arson occurred…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-27.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Freshly back from the cleaners.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-28.jpeg?fit=768%2C1256&ssl=1]
+[TEXT: This is the Golden Slipper pub, housed in a building from the 16th century and became a pub in the 18th century. It has a few interesting bits of lore...]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-29.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Inside the pub, there is a bit of a dropped ceiling near the side wall. Turns out this was a coffin drop. It was thought to be bad luck to remove dead bodies through the main door (before the pub, this was a house and people would have lived on the upper floors and after it became a pub, there would have been rooms to rent). The coffin drop was a place beneath the floorboards to put the body until the funeral, at which point the coffin would have exited this space through the side of the building. Once there were adjacent buildings, this exit would have been impossible and the coffin drop would have been sealed up or used for general storage. This is the only coffin drop left in York!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-30.jpeg?fit=768%2C806&ssl=1]
+[TEXT: Another interesting item was found in this pub. A medieval slipper was discovered in the walls during a 1984 renovation. In this superstitious city full of ghost stories, there were tales of the place being haunted. A folklore historian, Mrs Brenda Laing, has debunked this myth. In the 15th century, it was common to leave a shoe, often on the hearthstone, to promote happiness and wellbeing. If the shoe were ever to be removed, the happiness protection would disappear and the house would become a den of unhappiness and bad feeling. Mrs Laing told the owner that whatever he did, he mustn't remove the shoe! The shoe is in a glass case, on the wall below the coffin drop.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-31.jpeg?fit=768%2C654&ssl=1]
+[TEXT: This statue is Minerva reclining on a pile of books is one of Britain's first shopfront sculptures. It was sculpted by John Wolstenholme in 1801 and installed on the second floor to advertise his bookshop below. I guess in those days people looked up as they walked around town, not having mobile phones to distract them.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-32.jpeg?fit=704%2C960&ssl=1]
+[TEXT: Anne Lister was from West Yorkshire, near Halifax, but often travelled to York where she had a degree of anonymity that enabled her to pursue her lesbian social life. She typically dressed as a man and successfully ran her family's finances, property, and tenants. She became known as Gentleman Jack. This plaque honours what may have been the first same sex marriage. Anne Lister married Anne Walker in 1834.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-33.jpeg?fit=768%2C595&ssl=1]
+[TEXT: On March 1190, the Jews of York were facing violent anti-Semitic mobs. A group of 150-500 had escaped to Clifford's Tower, a wooden castle built by the Normans on a mound overlooking the city. After about three days without food and water, the only way out alive was to denounce their faith. Unwilling, they died at each other's hands or by suicide. Those still alive were murdered by the mob when they stormed the tower.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-34.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: That's a lot of algae on the Foss River!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-35.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Adam is grasping the replica of the 12th century Mouth of Hell door knocker at the All Saints Pavement church. The original is a far too rare example of medieval metalwork to be left in the open on the church door. It's also known as the Sanctuary Knocker. During medieval times, the church was a place of sanctuary. If a person was accused of a crime and could make it to the church and grasp the knocker, they would be granted protection for 40 days to seek a fair trial. Another sanctuary rule was that if the accused carried a cross and walked from the church straight to the water without leaving the Main Street, and could negotiate passage out of here (and agree never to return), they would be free! So the question today is: Why is Adam holding on so tightly…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-36.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Another iconic site in York is The Shambles. Mentioned in the Doomsday Book, this was the ancient Butchers' street. Of course it was included in William the Conqueror's Doomsday Book as there would have been taxes to collect here! The name Shambles comes from the word shamel meaning a medieval bench where the butchers laid out their meat for sale. The overhanging upper floors gave the butchers more storage space on the second floor without crowding the narrow street and it protected the meat from the sun and rain. This place was always such a mess that the name of the street entered popular vernacular. Something that is in a mess and disorganized is "in a shambles".]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-37.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: The butchered meat would have been displayed on these benches and other bits would have hung from the hooks above the windows. The sidewalk was higher than usual as the street was where the butchers threw the unsaleable bits of the meat to be washed away.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-38.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Preserved in the museum gardens, this ruin is the wall of St Mary's Abbey, a 12th century Benedictine monastery. In 1951, York Mystery Plays, religious plays traditionally performed on pageant wagons, moved their venue here, using the abbey ruins as a backdrop. In that first year, a 16-year-old actress had her first stage performance as a forgetful angel. She did well and was invited back to play the lead, Virgin Mary, in 1957. That 1951 first-timer was Judi Dench.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-39.jpeg?fit=768%2C882&ssl=1]
+[TEXT: The York city walls are among the most complete and impressive medieval city walls in England. It is now a 3.4km walking path around the old Roman city. The Romans built the first walls in wood and stone 2,000 years ago, in 71AD, and some parts of the original walls remain. It has since been repaired, rebuilt and expanded over the centuries with towers added for defence. There were four main gates (called bars) to enter the city, each having their own important historical context.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-40.jpeg?fit=768%2C1097&ssl=1]
+[TEXT: Bootham Bar is the North entrance heading towards Scotland. Rebuilt in the 12 century, it is home of the Gatehouse Cafe. I can't imagine what it took to get the lease for this location!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-41.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Perfect coffee spot and well-protected here from invaders.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-42.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: This is Fishergate Tower and Adam is standing under the medieval toilet (called a garderobe) with a chute to the outside. Definitely not a good place to wait for your medieval date!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-43.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Micklegate Bar was the principal bar. It guarded the main road south towards London and was the place monarchs were greeted. In its heyday, there were spikes on this gate where the heads of traitors were shown off. All monarchs came through here, except Henry VIII. By his time, this gate had a bad reputation due to the display of traitor's heads. He probably saw it as a bad omen, especially as someone focused on image, divine favour, and legitimacy.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-44.jpeg?fit=768%2C576&ssl=1]
+[TEXT: The Blue Bell is York's smallest pub. It'll fit 65 people with a squeeze. It's been a pub since 1798 and the last renovation was in 1903. They pride themselves on their cask ales and have untypical house rules: no swearing or loud conversations, no large groups, no under 18s and no mobile phones. They consider themselves a proper pub for proper pub people.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-45.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Here's another bit of their opinion on ales.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-46.jpeg?fit=768%2C768&ssl=1]
+[TEXT: There are lots of little sculptor cats on historic buildings in York. There are a few reasons why cats were part of the culture here, beyond what you'd expect in the realm of rat and mouse control. The locals believed that cats were symbols of protection and would ward off bad spirits. And sometimes, they were a way for illiterate people to identify a business.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-47.jpeg?fit=768%2C768&ssl=1]
+[TEXT: I found my perfect bench!…but where is everybody?!]
+
+
+=== POST: The Lake District, England (ID: 11226) ===
+FEATURED_IMAGE: https://travelswithjessica.ca/wp-content/uploads/2025/10/IMG_8172.jpg
+H2_HEADING: Lounging in the Lakes
+
+CONTENT_IN_ORDER:
+[TEXT: September, 2025]
+[TEXT: While I loved the Costwolds' gentleness and rolling hills, the Lake District really drew me in with its mountains, ruggedness and dramatic vistas. Maybe the Herdies also had something to do with it…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-48.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: What? More sheep?!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-49.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Dry stone walls are all over the UK (estimates are that they run a distance of 180,000-200,000 miles). These are definitely not a "seen one, seen 'em all" kind of thing. They can date as far back as medieval times and were used to keep sheep and cattle where they belonged and mark property lines. The older ones were often built with the slate uncovered when farmers cleared the land for grazing. Newer ones (by new, we're talking 18th century) more often than not used rounder, volcanic rocks and sometimes mixed them with slate. And no mortar was used to build these long-standing walls; just stones carefully placed with precision by someone who really knows what they are doing!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-50.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: There seems to be no end to these walls and no terrain they can't climb. The older ones don't tend to run in straight lines. These were not easy to build so they often ran the path of least resistance.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-51.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Herdies! These are the sweetest sheep of all! The Herdwick sheep are only found in this region as they have adapted to handle the extreme weather of the Lake District. They can survive on grazing alone and their extra thick fleece (which runs down their legs and along their long tails) keeps them warm and dry in the cold and wet winters.
+
+They change colour as they grow! They are born all black and as they age, their faces turn white and their wool fades to brown. After their first shearing (at about 12-18 months) their fleece grows back grey and stays that way. This extra thick wool is quite coarse and not ideal for sweaters but it is perfect for carpets, tweeds and insulation. Needless to say, the value of the wool is a lot lower but there has been a movement to preserve and protect this iconic creature of this region. We can thank Beatrix Potter for the Herdies we see today. She saved them from decline by farming them and when she died, she left them and her land to the National Trust. So she wasn't only about rabbits messing about in vegetable patches!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-52.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Herdies are often left to roam freely in the uplands without walls to keep them penned in. The flock is "hefted" to a particular patch of fell. It's their forever home and they pass this homing instinct down through the generations. The lambs follow their mothers around and learn their boundaries…unlike human children.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-53.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Sprinkled in with the Herdies on our hike from Little Langdale past Blea Tarn, a stepped waterfall. The Herdies seem to stay away from the water. Smart. Ewes must have taught their young this important lesson, along with where home is.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-54.jpeg?fit=768%2C576&ssl=1]
+[TEXT: You can spot us miles away! We are definitely heading in the right direction…for now. Behind us was a different world…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-55.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Believe it or not, this was at the same time as the previous photo, just looking back behind us, and where we would soon be headed! It's true when they say they get 81 inches of rain per year here…for perspective, Vancouver gets 54".]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-56.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Thankfully he's an engineer and could easily noodle through how to open the gate!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-57.jpeg?fit=768%2C491&ssl=1]
+[TEXT: Herdies on guard.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-58.jpeg?fit=768%2C576&ssl=1]
+[TEXT: We passed a little farmhouse with eggs for sale. Sadly, we didn't have £2 with us to slip in the jar tucked inside the egg "shop".]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-59.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: She looks runway ready…except for the little piece of grass sticking out of her mouth…the horses's equivalent to spinach stuck between the teeth.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-60.jpeg?fit=768%2C576&ssl=1]
+[TEXT: When you find people lining up in the rain and they are not Gen-Z following a TikTok trend, you absolutely join the queue!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-61.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: …especially when, as we discovered, it's the famous Grasmere Gingerbread shop! This was the most moreish gingerbread I've eaten. Moreish is a new word for me and will now enter my regular lexicon. It's a British word that describes food that is so good you want to keep eating more of it! But in order to do so, I'll have to come back here as Sarah Nelson's 150-year-old recipe is so secret, it's locked away in a vault!
+
+Sarah was born into poverty in 1815 and at the age of 12 started work as a servant. By 1850, married with two children, Sarah was working as a cook and invented her famous gingerbread. She struck out on her own and started her business in 1854, selling gingerbread wrapped in parchment paper (it still is sold this way!) from a tree stump in front of her cottage.
+
+The business since moved indoors and 170 years later, there I stood in line to buy Sarah's gingerbread, just like the droves of Victorians of the 1880s who came to Grasmere to see Wordsworth's grave in the church graveyard next door. If not for Wordsworth's influence, Sarah's business would never have become what it is today!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-62.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Sìmple signage for hikers.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-63.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut...]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-64.jpeg?fit=768%2C576&ssl=1]
+[TEXT: I got new kicks! My trail shoes were shockingly unsuitable for hiking in the rain.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-65.jpeg?fit=768%2C964&ssl=1]
+[TEXT: Windy day on the shores of Derwent water.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-66.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Ashness Bridge near Keswick dates back to the 1700s. It's a traditional packhorse bridge, narrow with low (or no) sides. Packhorses carried their heavy loads in packs that bulged out on both sides of their body. The low walls were designed so that the horses could cross without getting stuck if their loads were wide.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-67.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Dogs are welcome everywhere here! And there are plenty to welcome, to the point that they have their own dog-riffs on human beer and cocktails! Can't leave the pooch out of the fun!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-68.jpeg?fit=768%2C577&ssl=1]
+[TEXT: A little bit of driving aid for the narrow, country roads. Hopefully there's a passing place at hand when you're passing another car!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-69.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut...]
+
+
+=== POST: Edinburgh, Scotland (ID: 11266) ===
+FEATURED_IMAGE: https://travelswithjessica.ca/wp-content/uploads/2025/10/IMG_8386.jpg
+H2_HEADING: Enigmatic Edinburgh
+
+CONTENT_IN_ORDER:
+[TEXT: September, 2025]
+[TEXT: Ah Edinburgh, such a beautiful city yet so difficult to pronounce for most. Like so many names of places in the UK, the letters belie the pronunciation. This city, with a bit of nature sprinkled in, verges on perfect for me. The people are so lovely, the history is rich (and poor!), the coffee and food fabulous and the stories and lore somehow believable. The only absence seems to be the sheep!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-70.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: We'd barely arrived and I found myself faced with haggis. If I can eat crickets in a taco in Mexico, ants garnishing a dish in Vietnam and chicken sashimi in Japan, how could I, in good conscience, skip out on haggis in Scotland? It was actually quite good, especially since it was a bit bougie'd up as a haggis bonbon…chased with a wee dram of whisky.
+
+And if you're questioning my spelling of this classic Scottish beverage…with or without an "e", both are correct. In Scotland and Canada, we can't be bothered with the "e" and in Ireland and the US, they slip in the "e"; odd in American English, given they are prone to dropping letters they deem unnecessary.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-71.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: And in case you're interested in creating this classic Scottish delicacy yourself, we found this copy of the first printed recipe from 1773. If you know a farmer, you should be able to get all the ingredients you need.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-72.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Edinburgh is full of these closes, narrow alleys leading off the main road, into courtyards behind the buildings or linking to the streets behind. This was a walled city so as the population grew, they were forced to build up, sometimes reaching 10-12 storeys. The rich lived among the poor but they got the breezy top floors with the poor relegated to the damp, dark, lower levels. This made old Edinburgh one of the most densely populated places in 17th century Europe. The advantage of these socially-mixed residential areas was if the poor had a problem, so did the rich so issues were more likely to be addressed. But these crammed quarters became a hive of disease.
+
+The rich complained which led to the city building out the New Town ("New" as in 1767). The rich moved out to wide streets and bright open spaces and left the Old Town to the poor.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-73.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: The Royal Mile was the one wide street in old Edinburgh book ended by Holyrood Palace at one end and the Edinburgh Castle at the other. Its name is distance-accurate in old Scottish terms. Before the Acts of Union in 1707 which united the kingdoms of Scotland and England into Great Britain, Scotland had its own system of weights and measures. A Scottish mile was 1/8th (220 yards) longer than the English Mile. Edinburgh's Royal Mile is 24 yards short of the Scottish mile. The length was coincidental but it made for a good name!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-74.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: In the middle of the Royal Mile, right beside the St Giles Cathedral, stands a statue of Adam Smith a famous Scott who wrote Wealth of Nations. How fitting that he's looking up the street at the Tron Kirk (the spire with the clock tower), originally a mid-1600s Church of Scotland parish church. The church was nicknamed for the "tron", a public weighing beam where merchants arriving in Edinburgh to sell their goods like grain, butter, coal, salt and meat had to have them officially weighed for market. This ensured fair taxation and pricing. The wealth of the nation played out before him.
+
+As for the traffic cone on his head…a classic college prank, on repeat.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-75.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: The church closed for worship in the 1950s and was converted into the Tron Craft Centre in the 1980s. The wealth of the nation continues to be supported by local artisans selling their wares to tourists, locals and their dogs.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-76.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Luckily, St Giles Cathedral, perfectly positioned in the middle of the Royal Mile, is still open for business. Built in the 12th century, King David I decided to dedicate his cathedral to a highly popular saint in medieval Europe. Giles was from
+Provence and never actually set foot in Edinburgh, let alone Scotland, but became Edinburgh's patron saint anyway. His cultish fame as patron of lepers, beggars and the disabled spread through the medieval church's network of saints' veneration so King David picked him.
+
+As the main parish church of Edinburgh, and as Edinburgh became Scotland's capital, the cathedral became the hub of all things important like royal processions and proclamations, civic ceremonies and big state events. As such, St Giles as well as the cathedral became nationally important. John Knox, the Scottish Reformer, preached here in the 1560s so it became seen as the heart of Scotland's new national religion.
+
+When Queen Elizabeth II died, her coffin lay at rest here due to her special connection to Scotland and the fact that she attended services here when she was in town.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-77.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Number 23 is a special spot in the car park behind St Giles Cathedral. John Knox felt a strong kinship to this place and insisted that when he died, he be buried near the church of St Giles forever. His wish was granted and when the city moved the notables from the cemetery adjacent to the church to the Greyfriars cemetery when they built the car park, they left John Knox here, under spot #23. Everyone knows he's buried here under the car park so there won't be any big search, as there was when they unearthed the bones of King Richard III under a car park in Leicester.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-78.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: This stool is a memorial to Jenny Geddes inside the cathedral. In the 1630s, King Charles I of England tried to introduce the Anglican Book of Common Prayer in a very proud and staunch Presbyterian Protestant Scotland. The Scots wanted none of it, but King Charles pushed ahead and on July 23, 1637, the Dean of Edinburgh read the book to the congregation for first time. Nobody liked what they heard but a servant named Jenny Geddes had the guts to say what everyone else was thinking. She stood up and said: "The Devil give you colic, the belly of you, false thief; dare you say Mass in my ear?" She picked up her stool and threw it at the priest, starting a riot. Presbyterianism won.
+
+What happened to Jenny? Well, there is question as to whether she really existed, whether it was her that threw the stool or someone else, and whether there ever was a stool thrown, but her legacy as a folk hero lives on to this day as a symbol of resistance and opposition to religious imposition and authority.
+
+What happened to Charles? He was the first king to be charged with treason against his own people and was ultimately beheaded in 1649, thanks to his pushing religion and royal power on the people. He was too stubborn and lost it all: this marked the first shift in power from monarchy to parliament.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-79.jpeg?fit=768%2C613&ssl=1]
+[TEXT: Greyfriars Kirkyard was originally part of the Grey Friars Franciscan friary which was dissolved in 1560 at the Reformation. In 1561, the Edinburgh Town Council set aside the land as a new burial ground to relieve pressure on the overcrowded old cemetery at St Giles. A century later, after Jenny Geddes performance at the cathedral, this is where the National Covenant was signed in 1638, pledging to defend Presbyterianism against Charles I's reforms.
+
+The iron cage on the right hand side of the photo is not a decorative element of the cemetery. In fact, it's a mortsafe. In the late 18th and early 19th centuries, Edinburgh was a world centre for medical training. Students needed fresh, dead bodies for dissection. At the time, according to the law, the med school only had access to the bodies of those executed. But with only a handful of executions per year, demand far exceeded supply. This is always where the enterprising folk step in! Grave robbers would dig up fresh bodies and sell them to the medical school for as much as £10 (equivalent to £1000 today). The schools desperately needed the bodies so it was a "don't ask, don't tell" situation. Families paid to install these heavy cages over their loved one's graves to prevent the body snatching. They didn't need to cage up the graves for too long as once decomposing started, the bodies were useless. The cages would be rented for a few weeks at a time and then moved to a new grave.
+
+When the grave robbing business was thwarted, a couple of fellows, Burke and Hare, came up with a new idea in 1828: they murdered at least 16 people and sold them directly to the anatomy school. They killed the poor as they were less likely to be missed. These two were arrested but Hare managed to escape. Burke was convicted, executed and donated to the med school. What goes around comes around!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-80.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: One of the most famous buried here is Greyfriars Bobby. Bobby was a Skye terrier who belonged to John Gray, a night watchman in Edinburgh. When John died in 1858, Bobby refused to leave his master's graveside for 14 years. This posed a bit of a problem as without John, Bobby was a stray and therefore could be picked up and euthanized. But Bobby had become famous and drew in the tourists. The Lord Provost of Edinburgh figured out a loophole and arranged for Bobby to have a licence and collar so he wouldn't be taken as a stray. After Bobby died, he was buried just inside the gates of Greyfriars (not in consecrated ground, since he was a dog). Bobby still draws in the tourists who leave stick at his grave.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-81.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Continuing along the death theme…this cobble marker at the top end of Grassmarket was where the gallows were. As entertainment, thousands would come to watch executions. The executions have long since stopped but the entertainment continues in the form of pubs, restaurants and buskers.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-82.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Facing the gallows was this pub, The Last Drop. The story goes that prisoners were allowed a last drink before heading to the gallows, and this is where they had their last drop of drink. One very famous and true gallows story is that of Maggie Dicksons. At the age of 18 or 19, Maggie married a fisherman who deserted her. She gets pregnant in 1724 but hides the pregnancy because she is essentially a single woman. The baby comes early and is stillborn. Because nobody knew of the pregnancy, she left the body by banks of the River Tweed. It was illegal to conceal a pregnancy and she is tried, convicted and sentenced to be hung by the neck until pronounced dead. This happened and her body was put in a coffin and taken back to her family in Musselburgh. The driver of the coffin cart heard knocking and when he went to check on the coffin, he found Maggie alive. She was tried again and since the law said she was to be "hanged until dead", and the authorities had carried out the sentence the first time pronouncing her dead, she could not legally be executed again. She was released and went on to live for a long time.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-83.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: A busy night at the Jolly Judge pub!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-84.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Finally someone to chat with on the bench!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-85.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: I love this idea we saw in a bookshop in Stockbridge. The books are wrapped up with a brief synopsis written on the front. People buy the book solely based on the description. You can't tell a book by its cover!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-86.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Strolling along the Water of Leith Walkway we came across one of artist Anthony Gormley's sculptures in a series called Six Times. Cast from the artist's own body, six sculptures are placed in or beside the river along the walkway. They act as silent witnesses to the flow of the Water of Leith, reminding viewers of the passage of time, the cycles of nature, and human impermanence. This is number 4 and it was a surprise to come across it. We didn't notice the other five.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-87.jpeg?fit=768%2C576&ssl=1]
+[TEXT: We made it to Leith! This was Edinburgh's main port since the 12th century. Since the main port moved to deeper water to handle ever-larger container ships, Leith has had a serious facelift and is now a trendy part of town with great restaurants, fancy apartments and the home of Queen Elizabeth II's decommissioned yacht, the Royal Yacht Britannia.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-88.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Now that's pulled pork!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-89.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: Our favourite pub in Edinburgh! The Thistle Street Bar was around the corner from where we stayed and luckily we discovered it our second day in Edinburgh. We went every night after that. Owners Robert and Dorothy are absolutely lovely and have created a place with a fantastic vibe.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-90.jpeg?fit=768%2C576&ssl=1]
+[TEXT: On our second visit, Robert took the time to do a whisky education and tasting. He's not only a wonderful guy and a wealth of information about whisky, he's also a tour guide by day. I wish we knew earlier as he would be an amazing guide to explore the city with. Thistlestop Tours is his other business.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-91.jpeg?fit=768%2C576&ssl=1]
+[TEXT: This was our third and last night at Thistle Street Bar. On our second night we met Peter Watson (beside me) and his friend John who was visiting from Adelaide. Peter was such fun and a great pub friend! In retirement, he decided to keep busy by writing a novel. We met up on our third night and he brought me a signed copy. My next read!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-92.jpeg?fit=768%2C576&ssl=1]
+[TEXT: Edinburgh completed its new Scottish Parliament building in 2004 across the street from Holyrood Palace on the site of the old Holyrood Brewery. It's open to the public and people can come any time to watch the MSPs take care of business. The best time to come is in a Thursday for First Minister's Questions. Apparently it can get quite raucous, just like in our Parliament. The building is full of symbolism but my favourite the images of beer bottles on the walls and the ceiling fixtures. Seems very fitting in a country steeped in pub culture on the site of an old brewery. However, the security guy in the room told us that the building is very abstract and that those "bottles" actually represent the Scottish people who are known to be broad shouldered. Fine, but I beg to differ…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-93.jpeg?fit=768%2C1365&ssl=1]
+[TEXT: Our last day we trekked up the iconic Arthur's Seat, passing St Anthony's Chapel partway up. Built in the 15th century, this is thought to have been a place of pilgrimage, particularly for lepers. Interesting link back to our friend St Giles, the patron saint of the disabled, lepers and beggars.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-94.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: The colour palette of this pheasant is perfect here near the top of Arthur's Seat.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-95.jpeg?fit=768%2C809&ssl=1]
+[TEXT: Spectacular view of Edinburgh from the top of Arthur's Seat.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-96.jpeg?fit=768%2C1064&ssl=1]
+[TEXT: So many houses in the UK have plaques to let us know which famous person once lived there and when. This one is my favourite!]
+[VIDEO: https://videos.files.wordpress.com/ZZtjpbfe/img_8438.mov]
+[TEXT: Quidditch practice on the University of Edinburgh field. Since these are not real wizards and real flying brooms, they run with a stick between their legs!]
+
+
+=== POST: Fort William, Scotland (ID: 11323) ===
+FEATURED_IMAGE: https://travelswithjessica.ca/wp-content/uploads/2025/10/IMG_8873.jpg
+H2_HEADING: Wild Fort William
+
+CONTENT_IN_ORDER:
+[TEXT: September, 2025]
+[TEXT: We left the big city of Edinburgh for some hiking in the Scottish countryside. First destination, Fort William, which some call the Outdoor Capital of the UK. Hiking, biking and even dowhill skiing! It's magic in so many ways! Some important stops on the way in and out broke up the driving.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-97.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: The Falkirk Wheel is an engineer-at-heart husband's paradise. Nestled about 45 minutes from Edinburgh sits this remarkable marvel. Here's the backstory. Scotland has two major canals: the Union Canal which links Edinburgh and Falkirk; and the Forth & Clyde Canal which crosses central Scotland from the Firth of Forth (east) to the Firth of Clyde (west). In the 19th century, they were linked by a series of 11 locks opening up water transport between Edinburgh and Glasgow. Modern transportation like the railway and road network improved and left the canal transportation network in the dust. In 1933, the locks were dismantled and the two canals were cut off from each other. In the 1990s, the Millennium Link Project undertook the huge task of restoring and reconnecting Scotland's canals for leisure and tourism. The challenge to reconnect the Union Canal with the Forth & Clyde Canal without rebuilding the old staircase of locks to manage the 35m difference in height was solved by the Falkirk Wheel, which opened in 2002.]
+[VIDEO: https://videos.files.wordpress.com/Mxl72I8G/falkirk-wheel.mov]
+[TEXT: The Falkirk Wheel was the brainchild of architect Tony Kettle. £78 million later, Falkirk became home to world's one and only rotating boat lift. Each of the two huge gondolas (also called caissons) are 25m x 8m and can carry up to four boats each, depending on their size, of court. Part of the magic of these 500 litre gondolas is rooted in Archimedes' principle which shows that an object placed in a fluid displaces its own weight of that fluid. So the two gondolas' weight of 500 tonnes never changes, regardless of how many boats may be in them. The gondolas are always in perfect balance even if one has no boats and the other is full. And because of this perfect balance, the wheel only requires the energy equivalent to boil 8 kettles (of course that is the analogy, we are in the UK after all) to overcome the friction and get things moving. What once took a full day to navigate through the flight of 11 locks now takes less than 15 minutes from sailing in from once canal to sailing out into the other!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-98.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: This is the Union Canal at the top of the Falkirk Wheel. It's a pretty stunning sculptural view even without considering the engineering marvel that it is!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-99.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: A ten-minute drive up the road from the Falkirk Wheel, sitting alongside the the Forth & Clyde Canal is another marvel; the Kelpies. Created by Scottish sculptor Andy Scott, these two 30m tall steel horse-head sculptures are an engineering feat themselves. In Scottish folklore, a kelpie is a shape shifting water spirit that often appears as a horse, luring people to their watery demise. It's a great story to keep kids away from the dangers of water! But the symbolism of these kelpies is not only rooted in folklore. They are also a nod to the work horses essential to life in Scotland's past, not only important in agriculture but workhorses also pulled barges along the canals.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-100.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: The Kelpies each weigh about 300 tonnes with nearly 1,000 steel plates wrapped around a structural steel inner framework. The stainless steel plates are shaped and angled to suggest muscle, tension and flowing manes, capturing the energy of the horse.
+
+Creating these magnificent creatures was not quick. From start to finish, the project took about seven years. The design phase lasted two years, the fabrication of the steel structure and plates another five years and then several months of on-site assembly. The Kelpies were officially opened to the public in 2014.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-101.jpeg?fit=1104%2C755&ssl=1]
+[TEXT: Moving on from the magic of engineering to the magic of the sky. The sun is seeking its rest at the end of the day.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-102.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Hiking time: A spectacular trail in Glen Nevis to Steall Falls.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-103.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Parts of this trail have what is affectionately called bog snorkelling. Looks like someone came unprepared to wade through the wet and muddy sections…it does make me wonder how this hiker got out!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-104.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Note the proper footwear! I'll fess up and admit that mine are new as I came unprepared. No, that was not my shoe left behind in the mud, I got my new boots in the Lake District after getting soaked in the Cotswolds.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-105.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Late season heather growing along what looks like a cable knitted rock.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-106.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Sisters in arms ❤️]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-107.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: ounging? No, he wanted to look over the edge but didn't want to risk taking the fast way down.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-108.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: While Steall Falls was the most spectacular of the day, we passed three other waterfalls along the way, each more magnificent than the previous. At 120m, Steall Falls is the second highest in Scotland]
+[VIDEO: https://videos.files.wordpress.com/B66NKMYt/wire-bridge.mov]
+[TEXT: A safety-defying cable bridge across the Allt Coire a' Mhàil River which carries the water from Steall Falls the the gorge and Steall Meadows to the River Nevis.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-109.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: A nice little picnic spot after crossing the river. Should I divulge that the picnic was made up exclusively of cookies and chocolate?]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-110.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: With 21 arches spanning 380m, the Glenfinnan Viaduct is one of Scotland's most famous viaducts. And it's not just because of its beautiful sweeping curves…]
+[VIDEO: https://videos.files.wordpress.com/Sv48LlHJ/img_8360.mov]
+[TEXT: …this place is famous because it appears in the Harry Potter films as part of the Hogwarts Express route. Trains like this run four times a day to the delight of Harry Potter fans, which we are not. But once here, we had to stay and see what all the fuss was about…]
+
+
+=== POST: Isle of Skye, Scotland (ID: 11370) ===
+FEATURED_IMAGE: https://travelswithjessica.ca/wp-content/uploads/2025/10/IMG_1500.jpg
+H2_HEADING: Swathed by the Isle of Skye
+
+CONTENT_IN_ORDER:
+[TEXT: September, 2025]
+[TEXT: The Isle of Skye is a place to behold. The weather leaves little to be desired but the landscape, wildlife and distilleries make up for it!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-111.jpeg?fit=2048%2C1482&ssl=1]
+[TEXT: Scotland's national flower, the beautiful thistle, is all over Scotland. Lovely to look at but I sure wouldn't want to step on it without shoes. One wonders how a country goes about picking its national flower. I would have thought Scotland might have picked heather as it's really everywhere, painting the hills and mountains purple in late summer/early fall (sadly we missed the full bloom by a few weeks). Alas, it seems the choice is rooted in a bit of lore mixed with a dose of symbolism. Legend has it that during a night raid by Norse invaders in 1263, the unsuspecting invaders tried to sneak across a field barefoot to surprise the Scots. One of them stepped on a prickly thistle and cried out in pain, alerting the Scottish defenders who quickly thwarted the attack. Another case of inappropriate footwear in Scotland but it cemented the notion of the thistle saving the nation. Symbolically, this humble weed, with its prickly spines, represents toughness, resilience, and protection — a small, modest plant that's hard to crush, thriving in poor soils and harsh climates, much like the strong and resilient Scottish people.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-112.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: The Isle of Skye is known as the Misty Isle…I can't image why. The weather on arrival was stunning so we went straight to hike Old Man of Storr.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-113.jpeg?fit=1370%2C2048&ssl=1]
+[TEXT: A super windy day for the climb but someone found the perfect shelter to settle in with a book.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-114.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: The rocky pinnacle is Bodach an Stoir or the Old Man of Storr, standing about 50 metres high. At the right angle, the rock looks like the profile of an old man gazing out across the sea. Of course there's some folklore. One legend says the Old Man is the thumb of a giant, buried in the earth after his death, still sticking up through the ground. Seriously? A thumb? That must be the children's sanitized bedtime story version…
+
+Even more sanitized is the geologist's version. The pinnacles we know as The Old Man of Storr and his neighbour, The Needle were part of a rockslide about 6,000 years ago and are part of the 19-mile Trotternish Ridge, the largest and most dramatic series of landslides in Britain. Lucky for the landscape, some of the slide landed upright and stayed that way.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-115.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: The slides continue to this day. These boulders are the result of the last big one in 2004.  I sure wouldn't want to have been there that day!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-116.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Is this what realtors call a peek-a-boo view?]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-117.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: The gusts of wind were so strong at times, I felt more comfortable sitting down! We tried to find out how strong the wind was that day but there's no weather station up at the top of Storr to measure. We took the wind speed in the town of Portree where we were staying (50km) and estimated that at the top of Old Man of Storr it was at least 80km. 
+
+Note that I'm wearing appropriate footwear, although I'm not sure it really matters in the wind.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-118.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: This is a really big place! For perspective, that's me, bottom centre.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-119.jpeg?fit=768%2C1108&ssl=1]
+[TEXT: A moody evening sky in Portree. We were waiting in line to get into a fabulous seafood restaurant. Most of the people in front of us bailed so we got in pretty quickly and our mood improved!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-120.jpeg?fit=768%2C576&ssl=1]
+[TEXT: A stunning sunrise early on our first morning on Skye. The sun's morning stretch.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-121.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: This is not just a pretty place; real work happens here. Our seafood dinner was fantastic last night and now I'm know it was really fresh!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-122.jpeg?fit=768%2C768&ssl=1]
+[TEXT: The sheep here have some experience finding shelter when the rain threatens.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-123.jpeg?fit=768%2C1309&ssl=1]
+[TEXT: Screw it. I'm already wet and no amount of tucking close to a wall and snuggling with other wet sheep will make a difference. I'm heading to the pub!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-124.jpeg?fit=768%2C1044&ssl=1]
+[TEXT: Being in Scotland, the question is, what is the meaning of wee in this case?]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-125.jpeg?fit=768%2C576&ssl=1]
+[TEXT: So this is what they mean by Misty Isle… Such is a beautiful softness.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-126.jpeg?fit=768%2C1024&ssl=1]
+[TEXT: And then the mist gave way to torrential rain! Now we're in for an indoor day…plenty to do indoors, as it turns out.]
+[VIDEO: https://videos.files.wordpress.com/draeBvRG/img_9314.mov]
+[TEXT: We drove clear across to the other side of Skye (actually, not that far) to visit Skye Weavers. What an awesome find! Husband and wife, Roger and Andrea weave tweeds, scarves, throws and blankets using traditional methods. Andrea does the designs and Roger weaves and gets his exercise at the same time. This is their first loom which is about 35 years old. The scarf Roger is making (with a bit of our help!) has 1,320 threads which Andrea pulled pulled through, one by one, in about four hours. Once she has one basic pattern set up (like this one), Roger can tie 1,310 knots on the end of a finished scarf and keep on going with a new project on a new colour. That's faster than pulling the threads through one by one. Most of the wool they weave is imported merino (much softer than local) but they do buy about four tonnes of local wool every year which they grade themselves but then send to Yorkshire to be washed and spun.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-127.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: The colours and patterns are inspired by Skye's landscapes — the sea, moors, rocks, heather… Here, Andrea has taken a photo to inspire the colours of a project.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-128.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Another perfect rainy day activity is to visit a distillery! This is Seumas who, with his friend Séamus, started Broadford Distillery  during Covid when everything shut down on Skye. Seumas was a bartender and Séamus is a musician. At a loss for what to do, and wanting to stay on Skye, they decided to make gin and bought a small still from Portugal in 2020. Three years later, their 57° Skye (using a ton of botanicals including local Seaweed) was crowned  2nd in the world in the International Wine and Spirit Competition. Pretty good for a pair of 20-somethings who were casting about for a Covid project!
+
+While we tend to think of whisky when we think of Scotland, there's a lot of gin produced here. As they say here, you can distill gin on a Friday and sell it on Monday, scotch whisky has to be aged at least three years. That's tough on cash flow. They are working on a whisky permit and plan to produce their own single malt whisky called Bonnie Prince Charlie (an ode to the Young Pretender who fled in the aftermath of Culloden) but in the meantime they are a licensed bottler of whisky, meaning they can mix and re-bottle other producers' whisky.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-129.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Ok. Had to give this one a try. Tolerable but I would still take S&V over haggis anytime.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-130.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: So, Steve ordered this haggis-loaded fries…Scottish poutine! Since the last haggis experience with the "bon bons" was pleasant, I thought I'd give it a try…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-131.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: I'm not sure but when in Scotland…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-132.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Uh, it actually smells like liver…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-133.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: One, two, three, go! Bravery at its finest.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-134.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: Tastes like liver!!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-135.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: We found this in a local cookbook. Much better option than the haggis. And a much better use of marshmallows than s'mores.]
+[VIDEO: https://videos.files.wordpress.com/f57qxo4s/img_9349.mov]
+[TEXT: On our last night, we had a wonderful send off from these guys in the Antler pub. Nothing like live pub music…when it's good!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-136.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: On our way back to Edinburgh to head home, we stopped in Inverness for a walk around the famous Loch Ness. We needed our shot at actually seeing Nessie. Stunning walk but no monster to be seen.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-137.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Maybe Nessie moved to a new loch?]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-138.jpeg?fit=960%2C720&ssl=1]
+[TEXT: I think Steve is trying to find a more direct route home.]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-139.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: A Heilan coo! Otherwise known as a Kyloe. We were so excited to see a little herd of them. I always thought of them looking just like this, probably because all I've ever seen are the cute stuffed ones in shops. It turns out they come in different colours: ginger, black, dun (a brownish-grey) and white, and are just as cute in person!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-140.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: I think this fella is trying to convince Adam to set him free. Adam is very sympathetic to his cause. He would if he could…]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-141.jpeg?fit=1536%2C2048&ssl=1]
+[TEXT: These coos are tough! Not only do they have the best hair, they have an impressive set of horns. They need to protect those horns as they only get one set that grows from the day they are born until the day they die. Thanks to their thick coats, they are perfectly suited for the wind, rain and snow of the rugged north and west Highlands. They are the cow version of the Herdwick sheep!]
+[IMAGE: https://i0.wp.com/travelswithjessica.ca/wp-content/uploads/2025/10/image-142.jpeg?fit=2048%2C1536&ssl=1]
+[TEXT: Channeling our inner coo! Too bad Steve had a haircut before he left home…]
+```
+
+---
+
+**Flagged typos/issues (verbatim text preserved in output, noted here for your reference):**
+
+- **Oxford (11117):** "from is resemblance" — should be "from its resemblance"; "Mary Shelly's" — should be "Mary Shelley's"; "Charles Dodson" — the pen name holder is Charles Lutwidge Dodgson (minor spelling)
+- **Cotswolds (11132):** "loooked" — extra 'o'; "bridelways" — should be "bridleways"; "re-energy" — should be "re-energize"; "lightning strike on 1883" — should be "in 1883"
+- **Lake District (11226):** Two instances of **lorem ipsum placeholder text** appear in the flow (after image-63 and image-69) — these appear to be unfilled Elementor text blocks, not real content. Flagged: `[TEXT: Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut...]`; "Sìmple signage" has an unexpected accent; "Costwolds'" — should be "Cotswolds'"
+- **Fort William (11323):** "dowhill" — should be "downhill"; "of court" — should be "of course"; "from once canal" — should be "from one canal"; "the the Forth" — duplicate "the"; "ounging?" at start of text block — likely "Lounging?" with leading 'L' cut off
+- **Isle of Skye (11370):** "I can't image why" — should be "imagine"; "now I'm know it was" — should be "now I know it was"; "pulled pulled through" — duplicate word; "Broadford Distillery  during" — extra space
