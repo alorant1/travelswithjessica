@@ -201,7 +201,7 @@ var visited = [
   { id: "MX", url: "https://travelswithjessica.ca/category/north-america/mexico/",  count: 7  },
   { id: "MA", url: "https://travelswithjessica.ca/category/africa/morocco/",        count: 3  },
   { id: "PE", url: "https://travelswithjessica.ca/category/south-america/peru/",    count: 4  },
-  { id: "ZA", url: "posts/cape-town-south-africa.html",                             count: 8  },
+  { id: "ZA", url: "posts/cape-town-south-africa.html",                             count: 1  },
   { id: "ES", url: "https://travelswithjessica.ca/category/europe/spain/",          count: 2  },
   { id: "TH", url: "https://travelswithjessica.ca/category/asia/thailand/",         count: 5  },
   { id: "GB", url: "https://travelswithjessica.ca/category/europe/united-kingdom/", count: 8  },
@@ -249,7 +249,7 @@ var noPostsTemplate = noPostsSeries.mapPolygons.template;
 noPostsTemplate.fill = am4core.color("#aaaaaa");
 noPostsTemplate.stroke = am4core.color("#f9f6f2");
 noPostsTemplate.strokeWidth = 0.5;
-noPostsTemplate.tooltipText = "{name}: visited, no posts yet";
+noPostsTemplate.tooltipText = "";
 
 chart.zoomControl = new am4maps.ZoomControl();
 chart.zoomControl.align = "right";
