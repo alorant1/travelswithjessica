@@ -202,8 +202,8 @@ nav ul a:hover { color: var(--brown); }
 
 .hero-text {
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 14%;
+  left: 35%;
   transform: translate(-50%, -50%);
   text-align: center;
   pointer-events: none;
