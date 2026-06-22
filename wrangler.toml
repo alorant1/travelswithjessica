@@ -1,2 +1,5 @@
 name = "travelswithjessica"
-pages_build_output_dir = "."
+compatibility_date = "2025-06-22"
+
+[assets]
+directory = "."
