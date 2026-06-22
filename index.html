@@ -213,38 +213,36 @@ var visited = [
 var withPosts = visited.filter(v => v.count > 0);
 var withPostsSeries = chart.series.push(new am4maps.MapPolygonSeries());
 withPostsSeries.useGeodata = true;
+withPostsSeries.include = withPosts.map(v => v.id);
 withPostsSeries.data = withPosts.map(v => ({ id: v.id, url: v.url, count: v.count }));
 withPostsSeries.dataFields.id = "id";
 var withPostsTemplate = withPostsSeries.mapPolygons.template;
 withPostsTemplate.fill = am4core.color("#7B4B3A");
 withPostsTemplate.stroke = am4core.color("#f9f6f2");
 withPostsTemplate.strokeWidth = 0.5;
-withPostsTemplate.tooltipText = "{name}: {count} post{count == 1 ? '' : 's'}";
+withPostsTemplate.tooltipText = "{name}";
 withPostsTemplate.cursorOverStyle = am4core.MouseCursorStyle.pointer;
-withPostsTemplate.propertyFields.tooltipText = "tooltipText";
 var withPostsHover = withPostsTemplate.states.create("hover");
 withPostsHover.properties.fill = am4core.color("#9e6555");
 withPostsTemplate.events.on("hit", function(ev) {
   var url = ev.target.dataItem.dataContext.url;
   if (url) window.location.href = url;
 });
-// Build tooltip manually since amCharts 4 doesn't interpolate expressions
 withPostsSeries.events.on("inited", function() {
   withPostsSeries.mapPolygons.each(function(polygon) {
     var ctx = polygon.dataItem.dataContext;
-    if (ctx) {
+    if (ctx && ctx.count != null) {
       var n = ctx.count;
       polygon.tooltipText = "{name}: " + n + " post" + (n === 1 ? "" : "s");
     }
   });
 });
 
-// Visited countries with no posts — grey
+// Visited countries with no posts — grey, no tooltip
 var noPosts = visited.filter(v => v.count === 0);
 var noPostsSeries = chart.series.push(new am4maps.MapPolygonSeries());
 noPostsSeries.useGeodata = true;
-noPostsSeries.data = noPosts.map(v => ({ id: v.id }));
-noPostsSeries.dataFields.id = "id";
+noPostsSeries.include = noPosts.map(v => v.id);
 var noPostsTemplate = noPostsSeries.mapPolygons.template;
 noPostsTemplate.fill = am4core.color("#aaaaaa");
 noPostsTemplate.stroke = am4core.color("#f9f6f2");
