@@ -452,6 +452,18 @@ nav ul a:hover { color: var(--brown); }
 
 .read-more:hover { color: var(--brown-dk); }
 
+/* ── Video Block ── */
+.video-block {
+  margin: 2rem 0;
+  aspect-ratio: 16 / 9;
+}
+
+.video-block iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /* ── Post Nav ── */
 .post-nav {
   margin-top: 3rem;
