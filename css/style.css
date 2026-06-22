@@ -371,6 +371,87 @@ nav ul a:hover { color: var(--brown); }
   letter-spacing: 0.08em;
 }
 
+/* ── Breadcrumb ── */
+.breadcrumb {
+  font-size: 0.82rem;
+  color: #999;
+  margin-bottom: 2rem;
+  letter-spacing: 0.03em;
+}
+
+.breadcrumb a { color: var(--brown); text-decoration: none; }
+.breadcrumb a:hover { color: var(--brown-dk); }
+.breadcrumb span { margin: 0 0.4rem; }
+
+/* ── Country Index Cards ── */
+.country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.country-card {
+  background: var(--white);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  border-radius: 2px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.country-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.country-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.country-card-body {
+  padding: 1.2rem 1.4rem 1.6rem;
+}
+
+.country-card-body h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.country-card-body h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.country-card-body h3 a:hover { color: var(--brown); }
+
+.country-card-body .date {
+  font-size: 0.75rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.country-card-body p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.read-more {
+  font-size: 0.82rem;
+  color: var(--brown);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.read-more:hover { color: var(--brown-dk); }
+
 /* ── Post Nav ── */
 .post-nav {
   margin-top: 3rem;
