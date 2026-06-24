@@ -1,3 +1,10 @@
 .DS_Store
 *.log
 *.mov
+client_secret.json
+youtube_token.pickle
+*.pickle
+youtube_*_urls.json
+upload_*.py
+rebuild_captions.py
+videos/
