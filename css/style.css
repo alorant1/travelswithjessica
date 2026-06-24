@@ -183,8 +183,8 @@ figure.photo-block {
 
 figure.photo-block figcaption {
   font-size: 0.88rem;
-  color: var(--brown-light, #9e6555);
-  font-style: italic;
+  color: #000;
+  font-style: normal;
   margin-top: 0.5rem;
   line-height: 1.5;
 }
