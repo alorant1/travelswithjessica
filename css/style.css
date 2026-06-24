@@ -177,6 +177,18 @@ nav ul a:hover { color: var(--brown); }
   background: var(--cream);
 }
 
+figure.photo-block {
+  margin: 2rem 0;
+}
+
+figure.photo-block figcaption {
+  font-size: 0.88rem;
+  color: var(--brown-light, #9e6555);
+  font-style: italic;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
 .photo-caption {
   font-size: 0.82rem;
   color: #666;
