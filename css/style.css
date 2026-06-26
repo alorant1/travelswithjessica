@@ -312,11 +312,27 @@ figure.photo-block figcaption {
   gap: 0.5rem;
 }
 
-.subscribe-input-col {
+.subscribe-footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 260px;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  min-height: 1.5rem;
+}
+
+.subscribe-icon {
+  color: #888;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.subscribe-icon:hover { color: var(--brown); }
+
+.subscribe-icon svg {
+  width: 22px;
+  height: 22px;
 }
 
 .subscribe-form input[type="email"] {
