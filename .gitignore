@@ -8,3 +8,5 @@ youtube_*_urls.json
 upload_*.py
 rebuild_captions.py
 videos/
+service_account.json
+send_newsletter.py
