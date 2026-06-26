@@ -307,9 +307,16 @@ figure.photo-block figcaption {
 
 .subscribe-form {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
   gap: 0.5rem;
-  flex-wrap: wrap;
+}
+
+.subscribe-input-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
 }
 
 .subscribe-form input[type="email"] {
@@ -318,9 +325,9 @@ figure.photo-block figcaption {
   border-radius: 4px;
   font-family: var(--font-serif);
   font-size: 0.95rem;
-  color: var(--dark);
+  color: var(--text);
   background: #fff;
-  width: 260px;
+  width: 100%;
   outline: none;
 }
 
