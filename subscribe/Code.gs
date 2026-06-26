@@ -18,9 +18,21 @@ function generateToken() {
 }
 
 function doPost(e) {
-  var result = handleSubscribe(e);
-  return ContentService.createTextOutput(JSON.stringify(result))
+  var result;
+  try {
+    var body = JSON.parse(e.postData.contents);
+    if (body.action === 'error') {
+      handleErrorNotification(body.message || 'Unknown error');
+      result = { success: true };
+    } else {
+      result = handleSubscribe(e);
+    }
+  } catch (err) {
+    result = { success: false, message: 'Something went wrong. Please try again.' };
+  }
+  var output = ContentService.createTextOutput(JSON.stringify(result))
     .setMimeType(ContentService.MimeType.JSON);
+  return output;
 }
 
 function doGet(e) {
@@ -29,6 +41,18 @@ function doGet(e) {
     return handleUnsubscribe(e.parameter.token);
   }
   return ContentService.createTextOutput('Invalid request');
+}
+
+function handleErrorNotification(message) {
+  try {
+    MailApp.sendEmail({
+      to: 'adam@lorant.com',
+      subject: 'Travels with Jessica — Subscribe Error',
+      body: 'A subscription error occurred on travelswithjessica.ca:\n\n' + message + '\n\nTimestamp: ' + new Date().toISOString()
+    });
+  } catch (err) {
+    // silently fail if email can't be sent
+  }
 }
 
 function handleSubscribe(e) {
