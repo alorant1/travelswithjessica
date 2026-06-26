@@ -1,7 +1,7 @@
 // Google Apps Script for Travels with Jessica subscriber management
 // Deploy as Web App: Execute as "Me", Access "Anyone"
 
-var SHEET_ID = 'REPLACE_WITH_YOUR_SHEET_ID';
+var SHEET_ID = '1AYFDxX0TO2DWDNAyMDDjdKRs25NgA_JXsicpD1GF97g';
 var SHEET_NAME = 'Subscribers';
 
 function getSheet() {
