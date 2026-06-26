@@ -250,6 +250,10 @@ figure.photo-block figcaption {
   align-items: start;
 }
 
+.about-section > .contact-block {
+  padding-top: 0;
+}
+
 .about-section p {
   font-size: 0.95rem;
   line-height: 1.75;
@@ -289,7 +293,7 @@ figure.photo-block figcaption {
 }
 
 .subscribe-block {
-  margin-top: 2rem;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -337,13 +341,14 @@ figure.photo-block figcaption {
 }
 
 .subscribe-form button:hover {
-  background: var(--dark);
+  background: var(--brown-dk);
 }
 
 .subscribe-msg {
   margin-top: 0.75rem;
   font-size: 0.9rem;
   min-height: 1.2em;
+  text-align: center;
 }
 
 .subscribe-msg.success { color: #4a7c59; }
