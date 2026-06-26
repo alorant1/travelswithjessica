@@ -44,11 +44,13 @@
     <div class="subscribe-block">
       <p>Subscribe to get notified when a new post goes up.</p>
       <form id="subscribe-form" class="subscribe-form">
-        <input type="email" id="subscribe-email" placeholder="Your email address" required>
+        <div class="subscribe-input-col">
+          <input type="email" id="subscribe-email" placeholder="Your email address" required>
+          <span id="subscribe-msg" class="subscribe-msg" aria-live="polite"></span>
+        </div>
         <div class="subscribe-btn-col">
           <button type="submit">Subscribe</button>
-          <div class="subscribe-footer" aria-live="polite">
-            <span id="subscribe-msg" class="subscribe-msg"></span>
+          <div class="subscribe-icons">
             <a href="https://www.facebook.com/jessica.hotz.71" target="_blank" rel="noopener" aria-label="Facebook" class="subscribe-icon">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>

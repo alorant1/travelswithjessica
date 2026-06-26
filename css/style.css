@@ -312,13 +312,19 @@ figure.photo-block figcaption {
   gap: 0.5rem;
 }
 
+.subscribe-input-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .subscribe-btn-col {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.subscribe-footer {
+.subscribe-icons {
   display: flex;
   align-items: center;
   justify-content: center;
