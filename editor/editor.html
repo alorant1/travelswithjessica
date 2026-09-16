@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travels with Jessica — Editor</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f5f4f0;
+      --sidebar-bg: #ffffff;
+      --card-bg: #ffffff;
+      --border: #e4e0da;
+      --text: #2c2825;
+      --text-muted: #867f76;
+      --accent: #b85c3a;
+      --accent-hover: #9a4a2d;
+      --success: #2e7d52;
+      --blue: #2a5fa8;
+      --blue-light: #edf2fb;
+      --yellow: #f5a623;
+      --sidebar-w: 270px;
+      --topbar-h: 56px;
+      --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Top bar ─────────────────────────────────────────────── */
+    #topbar {
+      height: var(--topbar-h);
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      gap: 16px;
+      flex-shrink: 0;
+      z-index: 10;
+    }
+    #topbar h1 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    #topbar .separator { flex: 1; }
+    #current-post-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      max-width: 300px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    #dirty-badge {
+      display: none;
+      background: var(--yellow);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+    #dirty-badge.visible { display: inline-block; }
+
+    #btn-save {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s;
+    }
+    #btn-save:hover:not(:disabled) { background: var(--accent-hover); }
+    #btn-save:disabled { opacity: 0.55; cursor: not-allowed; }
+
+    #deploy-status {
+      font-size: 12px;
+      color: var(--text-muted);
+      min-width: 120px;
+      text-align: right;
+    }
+    #deploy-status.success { color: var(--success); font-weight: 600; }
+    #deploy-status.error { color: #c0392b; font-weight: 600; }
+
+    /* ── Layout ──────────────────────────────────────────────── */
+    #layout {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ─────────────────────────────────────────────── */
+    #sidebar {
+      width: var(--sidebar-w);
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    #sidebar-header {
+      padding: 14px 16px 10px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: var(--sidebar-bg);
+      z-index: 1;
+    }
+    .sidebar-group { }
+    .sidebar-group-label {
+      padding: 10px 16px 4px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .sidebar-item {
+      display: block;
+      padding: 7px 16px;
+      font-size: 13px;
+      color: var(--text);
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .sidebar-item:hover { background: var(--bg); }
+    .sidebar-item.active {
+      background: #fef3ef;
+      border-left-color: var(--accent);
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    /* ── Editor main area ────────────────────────────────────── */
+    #editor-main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 28px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    #editor-empty {
+      margin: auto;
+      text-align: center;
+      color: var(--text-muted);
+    }
+    #editor-empty svg { opacity: 0.3; margin-bottom: 12px; }
+    #editor-empty p { font-size: 14px; }
+
+    /* ── Block cards ─────────────────────────────────────────── */
+    #blocks-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 760px;
+    }
+
+    .block-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: flex;
+      align-items: stretch;
+      transition: box-shadow 0.15s;
+      cursor: default;
+      position: relative;
+    }
+    .block-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+    .block-card.dragging { opacity: 0.45; }
+    .block-card.drop-above { border-top: 3px solid var(--blue); }
+    .block-card.drop-below { border-bottom: 3px solid var(--blue); }
+
+    .block-handle {
+      width: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: grab;
+      color: #ccc;
+      font-size: 18px;
+      flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      border-radius: 8px 0 0 8px;
+    }
+    .block-handle:hover { color: var(--text-muted); background: var(--bg); }
+    .block-handle:active { cursor: grabbing; }
+
+    .block-type-badge {
+      width: 52px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 14px;
+    }
+    .badge {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 3px 6px;
+      border-radius: 4px;
+    }
+    .badge-photo { background: #e8f4fd; color: #1a6fa8; }
+    .badge-video { background: #fde8e8; color: #a81a1a; }
+    .badge-heading { background: #f0eaf9; color: #6a3a9a; }
+    .badge-text { background: #eaf5ec; color: #1a6a3a; }
+
+    .block-body {
+      flex: 1;
+      padding: 12px 14px;
+      min-width: 0;
+    }
+
+    /* Photo block */
+    .block-img-wrap {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+    .block-img-wrap img {
+      max-height: 180px;
+      max-width: 100%;
+      border-radius: 4px;
+      display: block;
+      object-fit: cover;
+    }
+    .img-placeholder {
+      width: 200px;
+      height: 120px;
+      background: #f0ebe4;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      color: var(--text-muted);
+      font-size: 11px;
+      border: 1px dashed var(--border);
+    }
+    .img-placeholder svg { opacity: 0.4; }
+
+    .btn-replace-img {
+      position: absolute;
+      bottom: 6px;
+      right: 6px;
+      background: rgba(0,0,0,0.65);
+      color: #fff;
+      border: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      cursor: pointer;
+      font-family: var(--font);
+      transition: background 0.15s;
+    }
+    .btn-replace-img:hover { background: rgba(0,0,0,0.85); }
+    .img-input { display: none; }
+
+    /* Video block */
+    .video-url-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .video-thumb {
+      width: 120px;
+      height: 68px;
+      background: #111;
+      border-radius: 4px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .video-info { flex: 1; min-width: 0; }
+    .video-url-text {
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 4px;
+    }
+    .btn-edit-video {
+      background: var(--blue-light);
+      color: var(--blue);
+      border: 1px solid #c5d6f0;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: var(--font);
+    }
+    .btn-edit-video:hover { background: #dce9f8; }
+
+    .video-url-input-row {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 8px;
+      align-items: center;
+    }
+    .video-url-input {
+      flex: 1;
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      font-size: 12px;
+      font-family: var(--font);
+      outline: none;
+    }
+    .video-url-input:focus { border-color: var(--blue); }
+    .btn-apply-video {
+      background: var(--blue);
+      color: #fff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: var(--font);
+    }
+    .btn-cancel-video {
+      background: none;
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      cursor: pointer;
+      font-family: var(--font);
+    }
+
+    /* Heading block */
+    .heading-edit {
+      font-size: 17px;
+      font-weight: 700;
+      padding: 4px 6px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      outline: none;
+      line-height: 1.3;
+      width: 100%;
+    }
+    .heading-edit:focus { border-color: var(--border); background: #fafafa; }
+
+    /* Text paragraphs */
+    .paras-list { display: flex; flex-direction: column; gap: 4px; }
+    .para-edit {
+      font-size: 13px;
+      line-height: 1.6;
+      padding: 5px 8px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      outline: none;
+      min-height: 28px;
+    }
+    .para-edit:focus { border-color: var(--border); background: #fafafa; }
+    .para-edit:empty::before {
+      content: 'Empty paragraph (click to edit)';
+      color: #bbb;
+      pointer-events: none;
+    }
+
+    .para-actions {
+      display: flex;
+      gap: 6px;
+      margin-top: 6px;
+      flex-wrap: wrap;
+    }
+    .btn-para {
+      background: none;
+      border: 1px dashed var(--border);
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-family: var(--font);
+      transition: all 0.1s;
+    }
+    .btn-para:hover { border-color: var(--text-muted); color: var(--text); }
+    .btn-para-remove {
+      background: none;
+      border: none;
+      padding: 3px 6px;
+      font-size: 15px;
+      color: #ccc;
+      cursor: pointer;
+      line-height: 1;
+      border-radius: 3px;
+      align-self: flex-start;
+      flex-shrink: 0;
+    }
+    .btn-para-remove:hover { color: #c0392b; background: #fdf0f0; }
+
+    .para-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 4px;
+    }
+    .para-row .para-edit { flex: 1; }
+
+    /* Block delete */
+    .btn-block-delete {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: none;
+      border: none;
+      color: #ccc;
+      font-size: 18px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 2px 4px;
+      border-radius: 3px;
+      display: none;
+    }
+    .block-card:hover .btn-block-delete { display: block; }
+    .btn-block-delete:hover { color: #c0392b; background: #fdf0f0; }
+
+    /* ── Deploy log ──────────────────────────────────────────── */
+    #deploy-log {
+      margin-top: 16px;
+      max-width: 760px;
+      background: #1c1c1e;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+      font-size: 12px;
+      color: #ccc;
+      display: none;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    #deploy-log.visible { display: block; }
+    .log-step { margin-bottom: 4px; }
+    .log-step.ok::before { content: '✓ '; color: #4caf50; }
+    .log-step.fail::before { content: '✗ '; color: #f44336; }
+
+    /* ── Spinner ─────────────────────────────────────────────── */
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinner {
+      display: inline-block;
+      width: 12px; height: 12px;
+      border: 2px solid #fff;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+
+    /* ── Unsaved changes dialog ──────────────────────────────── */
+    #confirm-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.4);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 1000;
+      display: none;
+    }
+    #confirm-overlay.visible { display: flex; }
+    #confirm-dialog {
+      background: #fff;
+      border-radius: 12px;
+      padding: 28px 32px;
+      max-width: 380px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    #confirm-dialog h3 { font-size: 16px; margin-bottom: 8px; }
+    #confirm-dialog p { font-size: 13px; color: var(--text-muted); margin-bottom: 20px; }
+    .confirm-btns { display: flex; gap: 8px; justify-content: center; }
+    .confirm-btns button {
+      padding: 8px 18px; border-radius: 6px; font-size: 13px;
+      font-weight: 600; cursor: pointer; border: none; font-family: var(--font);
+    }
+    #btn-confirm-save { background: var(--accent); color: #fff; }
+    #btn-confirm-discard { background: #f0ebe5; color: var(--text); }
+    #btn-confirm-cancel { background: none; border: 1px solid var(--border) !important; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<!-- Top bar -->
+<div id="topbar">
+  <h1>✈ Travels with Jessica</h1>
+  <span id="current-post-label">Select a post to edit</span>
+  <span id="dirty-badge">Unsaved</span>
+  <div class="separator"></div>
+  <span id="deploy-status"></span>
+  <button id="btn-save" disabled>Save &amp; Deploy</button>
+</div>
+
+<!-- Main layout -->
+<div id="layout">
+
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div id="sidebar-header">Posts</div>
+    <div id="post-list">
+      <div style="padding:20px 16px; font-size:13px; color:var(--text-muted)">Loading posts…</div>
+    </div>
+  </div>
+
+  <!-- Editor area -->
+  <div id="editor-main">
+    <div id="editor-empty">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+      <p>Select a post from the sidebar to start editing</p>
+    </div>
+    <div id="blocks-container" style="display:none"></div>
+    <div id="deploy-log"></div>
+  </div>
+
+</div>
+
+<!-- Unsaved changes dialog -->
+<div id="confirm-overlay">
+  <div id="confirm-dialog">
+    <h3>Unsaved changes</h3>
+    <p>You have unsaved changes. What would you like to do?</p>
+    <div class="confirm-btns">
+      <button id="btn-confirm-save">Save &amp; Deploy</button>
+      <button id="btn-confirm-discard">Discard</button>
+      <button id="btn-confirm-cancel">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ────────────────────────────────────────────────────────────────────
+let currentFile = null;
+let blocks = [];
+let isDirty = false;
+let dragIndex = null;
+let pendingNavFile = null; // for unsaved-changes confirm dialog
+
+// ── Boot ─────────────────────────────────────────────────────────────────────
+loadPosts();
+
+document.getElementById('btn-save').addEventListener('click', saveAndDeploy);
+document.getElementById('btn-confirm-save').addEventListener('click', () => {
+  hideConfirm();
+  saveAndDeploy().then(() => {
+    if (pendingNavFile) { pendingNavFile = null; loadPost(pendingNavFile); }
+  });
+});
+document.getElementById('btn-confirm-discard').addEventListener('click', () => {
+  isDirty = false;
+  const file = pendingNavFile;
+  pendingNavFile = null;
+  hideConfirm();
+  if (file) loadPost(file);
+});
+document.getElementById('btn-confirm-cancel').addEventListener('click', () => {
+  pendingNavFile = null;
+  hideConfirm();
+});
+
+window.addEventListener('beforeunload', e => {
+  if (isDirty) { e.preventDefault(); e.returnValue = ''; }
+});
+
+// ── Posts list ───────────────────────────────────────────────────────────────
+async function loadPosts() {
+  const res = await fetch('/api/posts');
+  const files = await res.json();
+
+  // Group by folder
+  const groups = {};
+  for (const f of files) {
+    const parts = f.split('/');
+    const folder = parts.length > 2 ? parts[1] : '_root';
+    (groups[folder] = groups[folder] || []).push(f);
+  }
+
+  const container = document.getElementById('post-list');
+  container.innerHTML = '';
+
+  for (const [folder, items] of Object.entries(groups).sort()) {
+    const label = folder === '_root' ? 'Other' : folder.replace(/-/g, ' ');
+    const grp = document.createElement('div');
+    grp.className = 'sidebar-group';
+    grp.innerHTML = `<div class="sidebar-group-label">${label}</div>`;
+
+    for (const f of items) {
+      const parts = f.split('/');
+      const name = parts[parts.length - 1].replace('.html', '').replace(/-/g, ' ');
+      const item = document.createElement('div');
+      item.className = 'sidebar-item';
+      item.textContent = name;
+      item.dataset.file = f;
+      item.addEventListener('click', () => onSidebarClick(f));
+      grp.appendChild(item);
+    }
+    container.appendChild(grp);
+  }
+}
+
+function onSidebarClick(file) {
+  if (file === currentFile) return;
+  if (isDirty) {
+    pendingNavFile = file;
+    showConfirm();
+  } else {
+    loadPost(file);
+  }
+}
+
+// ── Load post ────────────────────────────────────────────────────────────────
+async function loadPost(file) {
+  currentFile = file;
+  isDirty = false;
+  updateDirtyUI();
+
+  // Update sidebar active state
+  document.querySelectorAll('.sidebar-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.file === file);
+  });
+
+  const parts = file.split('/');
+  const name = parts[parts.length - 1].replace('.html', '').replace(/-/g, ' ');
+  document.getElementById('current-post-label').textContent = name;
+
+  setDeployStatus('');
+
+  const res = await fetch(`/api/post?file=${encodeURIComponent(file)}`);
+  const { html } = await res.json();
+  blocks = parseBlocks(html);
+
+  document.getElementById('editor-empty').style.display = 'none';
+  const container = document.getElementById('blocks-container');
+  container.style.display = 'flex';
+  renderBlocks();
+  document.getElementById('btn-save').disabled = false;
+  document.getElementById('deploy-log').className = '';
+}
+
+// ── Block parsing ────────────────────────────────────────────────────────────
+function parseBlocks(html) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+  const article = doc.querySelector('article.post-content');
+  if (!article) return [];
+
+  const nodes = Array.from(article.childNodes).filter(n =>
+    n.nodeType === 1 && n.tagName !== 'NAV' // skip breadcrumb
+  );
+
+  const result = [];
+  let i = 0;
+
+  while (i < nodes.length) {
+    const n = nodes[i];
+
+    if (n.tagName === 'H2') {
+      result.push({ type: 'heading', text: n.textContent.trim() });
+      i++;
+
+    } else if (n.classList?.contains('photo-block')) {
+      const img = n.querySelector('img');
+      const block = {
+        type: 'photo',
+        src: img?.getAttribute('src') || '',
+        alt: img?.getAttribute('alt') || '',
+        loading: img?.getAttribute('loading') || '',
+        paragraphs: []
+      };
+      i++;
+      while (i < nodes.length && nodes[i].tagName === 'P') {
+        block.paragraphs.push(nodes[i].innerHTML);
+        i++;
+      }
+      result.push(block);
+
+    } else if (n.classList?.contains('video-block')) {
+      const iframe = n.querySelector('iframe');
+      const block = {
+        type: 'video',
+        src: iframe?.getAttribute('src') || '',
+        title: iframe?.getAttribute('title') || '',
+        paragraphs: []
+      };
+      i++;
+      while (i < nodes.length && nodes[i].tagName === 'P') {
+        block.paragraphs.push(nodes[i].innerHTML);
+        i++;
+      }
+      result.push(block);
+
+    } else if (n.tagName === 'P') {
+      const paras = [n.innerHTML];
+      i++;
+      while (i < nodes.length && nodes[i].tagName === 'P') {
+        paras.push(nodes[i].innerHTML);
+        i++;
+      }
+      result.push({ type: 'text', paragraphs: paras });
+
+    } else {
+      i++;
+    }
+  }
+
+  return result;
+}
+
+// ── Render blocks ────────────────────────────────────────────────────────────
+function renderBlocks() {
+  const container = document.getElementById('blocks-container');
+  container.innerHTML = '';
+  blocks.forEach((block, i) => {
+    container.appendChild(renderBlock(block, i));
+  });
+}
+
+function renderBlock(block, index) {
+  const card = document.createElement('div');
+  card.className = 'block-card';
+  card.dataset.index = index;
+
+  // Handle
+  const handle = document.createElement('div');
+  handle.className = 'block-handle';
+  handle.innerHTML = '⠿';
+  handle.title = 'Drag to reorder';
+  card.appendChild(handle);
+
+  // Badge
+  const badge = document.createElement('div');
+  badge.className = 'block-type-badge';
+  const badgeLabels = { photo: 'Photo', video: 'Video', heading: 'H2', text: 'Text' };
+  badge.innerHTML = `<span class="badge badge-${block.type}">${badgeLabels[block.type]}</span>`;
+  card.appendChild(badge);
+
+  // Body
+  const body = document.createElement('div');
+  body.className = 'block-body';
+
+  if (block.type === 'photo') {
+    body.appendChild(buildPhotoBody(block, index));
+  } else if (block.type === 'video') {
+    body.appendChild(buildVideoBody(block, index));
+  } else if (block.type === 'heading') {
+    body.appendChild(buildHeadingBody(block, index));
+  } else if (block.type === 'text') {
+    body.appendChild(buildTextBody(block, index, true));
+  }
+
+  card.appendChild(body);
+
+  // Delete button
+  const del = document.createElement('button');
+  del.className = 'btn-block-delete';
+  del.innerHTML = '×';
+  del.title = 'Remove block';
+  del.addEventListener('click', () => {
+    if (confirm('Remove this block?')) {
+      syncFromDOM();
+      blocks.splice(index, 1);
+      renderBlocks();
+      markDirty();
+    }
+  });
+  card.appendChild(del);
+
+  // Drag & drop
+  setupDragDrop(card, index);
+
+  return card;
+}
+
+function buildPhotoBody(block, index) {
+  const wrap = document.createElement('div');
+
+  // Image preview + replace button
+  const imgWrap = document.createElement('div');
+  imgWrap.className = 'block-img-wrap';
+  const img = document.createElement('img');
+  img.src = block.src;
+  img.alt = block.alt;
+  img.onerror = () => {
+    // Replace broken img with a placeholder
+    const ph = document.createElement('div');
+    ph.className = 'img-placeholder';
+    ph.innerHTML = `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="m3 16 5-5 4 4 3-3 6 6"/><circle cx="8.5" cy="8.5" r="1.5"/></svg><span>Image not found — replace below</span>`;
+    img.replaceWith(ph);
+  };
+  imgWrap.appendChild(img);
+
+  const replaceBtn = document.createElement('button');
+  replaceBtn.className = 'btn-replace-img';
+  replaceBtn.textContent = 'Replace image';
+  const fileInput = document.createElement('input');
+  fileInput.type = 'file';
+  fileInput.accept = 'image/*';
+  fileInput.className = 'img-input';
+
+  replaceBtn.addEventListener('click', () => fileInput.click());
+  fileInput.addEventListener('change', () => {
+    if (fileInput.files[0]) uploadImage(index, fileInput.files[0], img);
+  });
+
+  imgWrap.appendChild(replaceBtn);
+  imgWrap.appendChild(fileInput);
+  wrap.appendChild(imgWrap);
+
+  // Alt text row
+  const altRow = document.createElement('div');
+  altRow.style.cssText = 'display:flex;align-items:center;gap:6px;margin-bottom:8px;';
+  altRow.innerHTML = `<label style="font-size:11px;color:var(--text-muted);white-space:nowrap">Alt text:</label>`;
+  const altInput = document.createElement('input');
+  altInput.value = block.alt || '';
+  altInput.placeholder = 'Image description';
+  altInput.style.cssText = 'flex:1;padding:4px 8px;border:1px solid var(--border);border-radius:4px;font-size:12px;font-family:var(--font);outline:none';
+  altInput.dataset.altFor = index;
+  altInput.addEventListener('input', markDirty);
+  altRow.appendChild(altInput);
+  wrap.appendChild(altRow);
+
+  // Paragraphs
+  wrap.appendChild(buildParagraphsSection(block.paragraphs, index));
+  return wrap;
+}
+
+function buildVideoBody(block, index) {
+  const wrap = document.createElement('div');
+
+  const videoId = extractYouTubeId(block.src);
+  const thumbUrl = videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : '';
+
+  const urlRow = document.createElement('div');
+  urlRow.className = 'video-url-row';
+
+  if (thumbUrl) {
+    const thumb = document.createElement('img');
+    thumb.src = thumbUrl;
+    thumb.className = 'video-thumb';
+    urlRow.appendChild(thumb);
+  }
+
+  const info = document.createElement('div');
+  info.className = 'video-info';
+  const urlText = document.createElement('div');
+  urlText.className = 'video-url-text';
+  urlText.textContent = block.src;
+  info.appendChild(urlText);
+
+  const editBtn = document.createElement('button');
+  editBtn.className = 'btn-edit-video';
+  editBtn.textContent = 'Edit YouTube URL';
+  editBtn.addEventListener('click', () => showVideoUrlEditor(wrap, block, index));
+  info.appendChild(editBtn);
+  urlRow.appendChild(info);
+  wrap.appendChild(urlRow);
+
+  // Paragraphs
+  wrap.appendChild(buildParagraphsSection(block.paragraphs, index));
+  return wrap;
+}
+
+function showVideoUrlEditor(wrap, block, index) {
+  // Remove existing editor if any
+  const existing = wrap.querySelector('.video-url-input-row');
+  if (existing) { existing.remove(); return; }
+
+  const row = document.createElement('div');
+  row.className = 'video-url-input-row';
+
+  const input = document.createElement('input');
+  input.className = 'video-url-input';
+  input.placeholder = 'Paste YouTube URL or embed URL…';
+  input.value = block.src;
+  row.appendChild(input);
+
+  const apply = document.createElement('button');
+  apply.className = 'btn-apply-video';
+  apply.textContent = 'Apply';
+  apply.addEventListener('click', () => {
+    const url = toYouTubeEmbed(input.value.trim());
+    if (!url) return;
+    syncFromDOM();
+    blocks[index].src = url;
+    blocks[index].title = blocks[index].title || 'YouTube video';
+    renderBlocks();
+    markDirty();
+  });
+  row.appendChild(apply);
+
+  const cancel = document.createElement('button');
+  cancel.className = 'btn-cancel-video';
+  cancel.textContent = 'Cancel';
+  cancel.addEventListener('click', () => row.remove());
+  row.appendChild(cancel);
+
+  wrap.insertBefore(row, wrap.querySelector('.paras-section'));
+  input.focus();
+  input.select();
+}
+
+function buildHeadingBody(block, index) {
+  const wrap = document.createElement('div');
+  const edit = document.createElement('div');
+  edit.className = 'heading-edit';
+  edit.contentEditable = 'true';
+  edit.textContent = block.text;
+  edit.dataset.headingFor = index;
+  edit.addEventListener('input', markDirty);
+  wrap.appendChild(edit);
+  return wrap;
+}
+
+function buildTextBody(block, index, standalone) {
+  return buildParagraphsSection(block.paragraphs, index);
+}
+
+function buildParagraphsSection(paragraphs, index) {
+  const section = document.createElement('div');
+  section.className = 'paras-section';
+  const list = document.createElement('div');
+  list.className = 'paras-list';
+  list.dataset.parasFor = index;
+
+  for (const p of (paragraphs || [])) {
+    list.appendChild(makeParagraphRow(p, index));
+  }
+  section.appendChild(list);
+
+  const addBtn = document.createElement('button');
+  addBtn.className = 'btn-para';
+  addBtn.textContent = '+ Add paragraph';
+  addBtn.addEventListener('click', () => {
+    list.appendChild(makeParagraphRow('', index));
+    markDirty();
+  });
+  section.appendChild(addBtn);
+  return section;
+}
+
+function makeParagraphRow(html, index) {
+  const row = document.createElement('div');
+  row.className = 'para-row';
+
+  const edit = document.createElement('div');
+  edit.className = 'para-edit';
+  edit.contentEditable = 'true';
+  edit.innerHTML = html;
+  edit.addEventListener('input', markDirty);
+  row.appendChild(edit);
+
+  const del = document.createElement('button');
+  del.className = 'btn-para-remove';
+  del.innerHTML = '×';
+  del.title = 'Remove paragraph';
+  del.addEventListener('click', () => { row.remove(); markDirty(); });
+  row.appendChild(del);
+
+  return row;
+}
+
+// ── Drag and drop ────────────────────────────────────────────────────────────
+function setupDragDrop(card, index) {
+  const handle = card.querySelector('.block-handle');
+
+  handle.addEventListener('mousedown', () => card.setAttribute('draggable', 'true'));
+  card.addEventListener('dragstart', e => {
+    dragIndex = index;
+    e.dataTransfer.effectAllowed = 'move';
+    setTimeout(() => card.classList.add('dragging'), 0);
+  });
+  card.addEventListener('dragend', () => {
+    card.classList.remove('dragging');
+    card.setAttribute('draggable', 'false');
+    document.querySelectorAll('.drop-above,.drop-below')
+      .forEach(el => el.classList.remove('drop-above', 'drop-below'));
+    dragIndex = null;
+  });
+  card.addEventListener('dragover', e => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    const rect = card.getBoundingClientRect();
+    card.classList.remove('drop-above', 'drop-below');
+    if (e.clientY < rect.top + rect.height / 2) card.classList.add('drop-above');
+    else card.classList.add('drop-below');
+  });
+  card.addEventListener('dragleave', e => {
+    if (!card.contains(e.relatedTarget)) {
+      card.classList.remove('drop-above', 'drop-below');
+    }
+  });
+  card.addEventListener('drop', e => {
+    e.preventDefault();
+    if (dragIndex === null || dragIndex === index) return;
+    const dropAbove = card.classList.contains('drop-above');
+    card.classList.remove('drop-above', 'drop-below');
+
+    syncFromDOM();
+
+    let target = dropAbove ? index : index + 1;
+    if (dragIndex < target) target--;
+    if (dragIndex === target) return;
+
+    const [moved] = blocks.splice(dragIndex, 1);
+    blocks.splice(target, 0, moved);
+    dragIndex = null;
+    renderBlocks();
+    markDirty();
+  });
+}
+
+// ── Sync DOM → blocks array ──────────────────────────────────────────────────
+function syncFromDOM() {
+  const container = document.getElementById('blocks-container');
+
+  // Headings
+  container.querySelectorAll('[data-heading-for]').forEach(el => {
+    const i = parseInt(el.dataset.headingFor);
+    if (blocks[i]) blocks[i].text = el.textContent.trim();
+  });
+
+  // Alt text inputs
+  container.querySelectorAll('[data-alt-for]').forEach(el => {
+    const i = parseInt(el.dataset.altFor);
+    if (blocks[i]) blocks[i].alt = el.value;
+  });
+
+  // Paragraphs
+  container.querySelectorAll('[data-paras-for]').forEach(list => {
+    const i = parseInt(list.dataset.parasFor);
+    if (!blocks[i]) return;
+    const paras = Array.from(list.querySelectorAll('.para-edit'))
+      .map(p => p.innerHTML.trim())
+      .filter(p => p && p !== '<br>');
+    blocks[i].paragraphs = paras;
+  });
+}
+
+// ── Image upload ─────────────────────────────────────────────────────────────
+async function uploadImage(blockIndex, file, imgEl) {
+  const form = new FormData();
+  form.append('image', file);
+
+  imgEl.style.opacity = '0.4';
+  try {
+    const res = await fetch('/api/upload-image', { method: 'POST', body: form });
+    const { url, error } = await res.json();
+    if (error) throw new Error(error);
+    blocks[blockIndex].src = url;
+    imgEl.src = url;
+    imgEl.style.opacity = '1';
+    markDirty();
+  } catch (e) {
+    imgEl.style.opacity = '1';
+    alert('Upload failed: ' + e.message);
+  }
+}
+
+// ── YouTube helpers ───────────────────────────────────────────────────────────
+function toYouTubeEmbed(url) {
+  const patterns = [
+    /youtube\.com\/watch\?(?:.*&)?v=([a-zA-Z0-9_-]{11})/,
+    /youtu\.be\/([a-zA-Z0-9_-]{11})/,
+    /youtube\.com\/embed\/([a-zA-Z0-9_-]{11})/
+  ];
+  for (const p of patterns) {
+    const m = url.match(p);
+    if (m) return `https://www.youtube.com/embed/${m[1]}`;
+  }
+  return url;
+}
+function extractYouTubeId(src) {
+  const m = src.match(/\/embed\/([a-zA-Z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+
+// ── Save & Deploy ────────────────────────────────────────────────────────────
+async function saveAndDeploy() {
+  if (!currentFile) return;
+  syncFromDOM();
+
+  const btn = document.getElementById('btn-save');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>Deploying…';
+  setDeployStatus('Saving & deploying…');
+
+  const log = document.getElementById('deploy-log');
+  log.innerHTML = '';
+  log.classList.add('visible');
+
+  try {
+    const res = await fetch('/api/save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ file: currentFile, blocks }),
+      signal: AbortSignal.timeout(180000)
+    });
+    const data = await res.json();
+
+    // Show log
+    for (const entry of (data.log || [])) {
+      const el = document.createElement('div');
+      el.className = `log-step ${entry.ok ? 'ok' : 'fail'}`;
+      el.textContent = entry.step + (entry.out ? ': ' + entry.out.split('\n')[0] : '');
+      log.appendChild(el);
+    }
+
+    if (data.ok) {
+      isDirty = false;
+      updateDirtyUI();
+      setDeployStatus('✓ Live!', 'success');
+      btn.textContent = 'Save & Deploy';
+      btn.disabled = false;
+    } else {
+      setDeployStatus('Deploy failed', 'error');
+      btn.textContent = 'Save & Deploy';
+      btn.disabled = false;
+      if (data.error) {
+        const el = document.createElement('div');
+        el.className = 'log-step fail';
+        el.textContent = data.error;
+        log.appendChild(el);
+      }
+    }
+  } catch (e) {
+    setDeployStatus('Error: ' + e.message, 'error');
+    btn.textContent = 'Save & Deploy';
+    btn.disabled = false;
+  }
+}
+
+// ── UI helpers ────────────────────────────────────────────────────────────────
+function markDirty() {
+  isDirty = true;
+  updateDirtyUI();
+}
+function updateDirtyUI() {
+  document.getElementById('dirty-badge').classList.toggle('visible', isDirty);
+}
+function setDeployStatus(msg, type) {
+  const el = document.getElementById('deploy-status');
+  el.textContent = msg;
+  el.className = type || '';
+}
+function showConfirm() { document.getElementById('confirm-overlay').classList.add('visible'); }
+function hideConfirm() { document.getElementById('confirm-overlay').classList.remove('visible'); }
+</script>
+
+</body>
+</html>
